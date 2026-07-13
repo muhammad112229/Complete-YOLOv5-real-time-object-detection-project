@@ -1,0 +1,95 @@
+{
+  "generated_at_utc": "2026-07-13T16:53:48.547625+00:00",
+  "python_version": "3.11.9",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "torch_version": "2.5.1+cpu",
+  "cuda_available": false,
+  "selected_device": "cpu",
+  "total_tests": 48,
+  "passed": 48,
+  "failed": 0,
+  "skipped": 0,
+  "test_files": [
+    "tests/test_coco_parser.py",
+    "tests/test_coco_preparation.py",
+    "tests/test_colab_transfer.py",
+    "tests/test_dataset_split.py",
+    "tests/test_environment.py",
+    "tests/test_evaluation_pipeline.py",
+    "tests/test_flask_app.py",
+    "tests/test_imports.py",
+    "tests/test_inference_smoke.py",
+    "tests/test_training_smoke.py",
+    "tests/test_video_compatibility.py"
+  ],
+  "duration_seconds": 269.376,
+  "commands_run": [
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m compileall -q app.py src deployment tests",
+      "exit_code": 0,
+      "duration_seconds": 1.359
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m pytest -q",
+      "exit_code": 0,
+      "duration_seconds": 269.376
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe verify_setup.py",
+      "exit_code": 0,
+      "duration_seconds": 66.97
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m src.inspect_checkpoint",
+      "exit_code": 0,
+      "duration_seconds": 23.858
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe deployment\\analyze_training_results.py",
+      "exit_code": 0,
+      "duration_seconds": 10.101
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m src.recreate_test_subset",
+      "exit_code": 0,
+      "duration_seconds": 419.824
+    },
+    {
+      "command": "Flask real app API smoke via test_client",
+      "exit_code": 0,
+      "duration_seconds": 94.824
+    },
+    {
+      "command": "video compatibility verification",
+      "exit_code": 0,
+      "duration_seconds": 1.315
+    }
+  ],
+  "smoke_test_results": {
+    "inference_smoke": "passed via tests/test_inference_smoke.py",
+    "evaluation_pipeline_tests": "passed via tests/test_evaluation_pipeline.py",
+    "flask_tests": "passed via tests/test_flask_app.py",
+    "api_smoke": {
+      "passed": true,
+      "home_status": 200,
+      "health_status": 200,
+      "model_status": 200,
+      "model_loaded": true
+    },
+    "video_compatibility": {
+      "passed": true,
+      "final_codec": "h264",
+      "method": "opencv_transcode_avc1",
+      "final_video": "outputs/flask/videos/2de3cad407914270a34508e48cf148cf_WhatsApp_Video_2026-07-13_at_8_49_06_PM_annotated_browser.mp4"
+    },
+    "test_manifest_verification": "passed",
+    "annotation_verification": "passed"
+  },
+  "known_warnings": [
+    "YOLOv5 v7.0 imports pkg_resources, which emits a Setuptools deprecation warning.",
+    "thop uses distutils LooseVersion and emits deprecation warnings during the inference smoke test.",
+    "YOLOv5 AutoShape emits a torch.cuda.amp.autocast future warning with Torch 2.5.1.",
+    "The real Flask API smoke endpoint checks passed; the first PowerShell wrapper log also captured YOLOv5 stderr warnings."
+  ],
+  "final_status": "passed"
+}

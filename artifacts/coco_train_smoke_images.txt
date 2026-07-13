@@ -1,0 +1,4 @@
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\processed\coco_yolo\images\train\train2017_000000248958.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\processed\coco_yolo\images\train\train2017_000000506641.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\processed\coco_yolo\images\train\train2017_000000359337.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\processed\coco_yolo\images\train\train2017_000000473783.jpg

@@ -1,0 +1,119 @@
+{
+  "generated_at_utc": "2026-07-06T09:34:53.830140+00:00",
+  "strategy": "Download official COCO archives in Colab, then reconstruct exact split from transferred manifests.",
+  "expected": {
+    "seed": 42,
+    "train_image_count": 98629,
+    "val_image_count": 12328,
+    "test_image_count": 12330,
+    "accepted_annotation_count": 886282,
+    "excluded_crowd_annotation_count": 10498,
+    "rejected_invalid_box_count": 2,
+    "class_count": 80,
+    "split_summary_counts": {
+      "train": 98629,
+      "val": 12328,
+      "test": 12330
+    },
+    "split_summary_annotation_counts": {
+      "train": 711796,
+      "val": 86566,
+      "test": 87920
+    },
+    "statistics_counts": {
+      "total_source_images": 123287,
+      "accepted_annotations": 886282,
+      "excluded_crowd_annotations": 10498,
+      "invalid_boxes": 2
+    },
+    "validation_final_readiness": true
+  },
+  "files": {
+    "data/splits/train_images.txt": {
+      "sha256": "50da8aa3879e7795a43b55b40a0fe47988b79bdc770d3adaf72656c060247121",
+      "size_bytes": 13109635
+    },
+    "data/splits/val_images.txt": {
+      "sha256": "3309af7e82ee07e536595f34a79103682aa9ba359451bc7d7b216891ef926e1c",
+      "size_bytes": 1613978
+    },
+    "data/splits/test_images.txt": {
+      "sha256": "31aba29c3400af72e467f13a628c19fb70581e6abca71c4ee275b7f9ee4a4f8e",
+      "size_bytes": 1626572
+    },
+    "data/splits/train_manifest.csv": {
+      "sha256": "850a0b088b5552d942af30c9d0bf707f06661fee22230d4dbab1c31092f2f2d0",
+      "size_bytes": 45293755
+    },
+    "data/splits/val_manifest.csv": {
+      "sha256": "128d58c3a76f3fb5554fbdce97c8da14b0c376d237e1d52cec8e32b626501d0e",
+      "size_bytes": 5607610
+    },
+    "data/splits/test_manifest.csv": {
+      "sha256": "208498b249cc685a10e3b1dbf29f46dd49c6f817ffab5e23449638ee63146c36",
+      "size_bytes": 5634977
+    },
+    "data/splits/split_summary.json": {
+      "sha256": "c5360628cc8889f653d3cda751d398f992d01bccea81e1cb72905a4239642f01",
+      "size_bytes": 533
+    },
+    "data/processed/coco_yolo/class_mapping.json": {
+      "sha256": "30395d70d9f559c7c83a7301be0b44f7a61623ce8a81f53d31971b0e2a47ae87",
+      "size_bytes": 9788
+    },
+    "data/processed/coco_yolo/class_names.txt": {
+      "sha256": "4d4aaea7bee6be2f675d9b53a9195ca36dfe6429f7479f29155da522a6c85930",
+      "size_bytes": 701
+    },
+    "configs/coco_project_colab.yaml": {
+      "sha256": "e73746d1d7677be794b0ca3b98ecfc6d0c36ad702f4f1c9fc382d7b19217bb97",
+      "size_bytes": 1360
+    },
+    "src/prepare_coco_colab.py": {
+      "sha256": "d8dbaf4d76f8d2a142dc55e96177cbf5fe39598e8260ab37deed5257c03b9a4b",
+      "size_bytes": 22962
+    },
+    "src/download_coco.py": {
+      "sha256": "06f66c677022a832df6044192119c7111e98ced2f5b160f31e2f3259f1955e07",
+      "size_bytes": 29043
+    },
+    "src/parse_coco_annotations.py": {
+      "sha256": "cd099e202ae364fd950e6c26be3de98f43c17c5732cef648090421d0a2e3bb56",
+      "size_bytes": 10435
+    },
+    "src/colab_transfer.py": {
+      "sha256": "efa4882644b194b922dfac2fff8dd9d3e8b4f9f4e5e18485f4f3eb5cd8ae5904",
+      "size_bytes": 13438
+    },
+    "notebooks/YOLOv5_COCO_Training_Colab.ipynb": {
+      "sha256": "42e6ece3deceac23275e688b4ff9873cc1db7258b41d67ca16419e0cbc90352b",
+      "size_bytes": 16253
+    },
+    "requirements.txt": {
+      "sha256": "03b11fde1ee00424d8caaebbb79818fe8715ef3298da8fe069b790e2d0094ec7",
+      "size_bytes": 915
+    }
+  },
+  "split_identity": {
+    "train": {
+      "count": 98629,
+      "sha256": "0358164d6d5be2a0a465f35cee1b94d10bef436a58ae64171a3ff2b34f1a9ef8"
+    },
+    "val": {
+      "count": 12328,
+      "sha256": "74ff3223f89c5f86e1c9486a2f0dc35937ad4fc4a79fd4355d6f2229530d4bee"
+    },
+    "test": {
+      "count": 12330,
+      "sha256": "383cfa1932c8869904aca2aa336aee8f8616aa1909a14ee88784f50c5ce91cab"
+    }
+  },
+  "dataset_yaml_template": {
+    "path": "/content/datasets/coco2017/coco_yolo_exact_split",
+    "train": "images/train",
+    "val": "images/val",
+    "test": "images/test",
+    "nc": 80,
+    "name_count": 80
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "generated_at_utc": "2026-07-06T08:33:25.780309+00:00",
+  "status": "passed",
+  "checkpoint": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\yolov5s\\smoke_test\\weights\\best.pt",
+  "source": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\data\\images\\bus.jpg",
+  "output": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\outputs\\images\\training_smoke_test\\bus.jpg",
+  "image_size": 640,
+  "confidence_threshold": 0.25,
+  "iou_threshold": 0.45,
+  "detected_classes": [
+    "bus",
+    "person"
+  ],
+  "detection_count": 5,
+  "preprocessing_time_ms": 7.99560546875,
+  "inference_time_ms": 354.4504642486572,
+  "nms_time_ms": 0.0,
+  "total_pipeline_time_ms": 377.704199985601,
+  "model_load_time_ms": 543.4759999916423,
+  "timing_context": "diagnostic CPU timing only; not a final real-time speed result",
+  "detections": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.896117627620697,
+      "x1": 672.7282104492188,
+      "y1": 399.5812072753906,
+      "x2": 808.7925415039062,
+      "y2": 873.3244018554688
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.8691341280937195,
+      "x1": 222.24411010742188,
+      "y1": 411.36328125,
+      "x2": 345.2070617675781,
+      "y2": 862.0938110351562
+    },
+    {
+      "class_id": 5,
+      "class_name": "bus",
+      "confidence": 0.8578073978424072,
+      "x1": 18.927881240844727,
+      "y1": 239.3129425048828,
+      "x2": 796.4434204101562,
+      "y2": 754.6491088867188
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.8504857420921326,
+      "x1": 51.32118225097656,
+      "y1": 394.0632019042969,
+      "x2": 248.5457305908203,
+      "y2": 907.757080078125
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.6621026396751404,
+      "x1": 1.0132570266723633,
+      "y1": 558.314208984375,
+      "x2": 68.83165740966797,
+      "y2": 874.13671875
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "generated_at_utc": "2026-07-13T16:53:48.547625+00:00",
+  "audit_timestamp": "2026-07-13T16:53:48.547625+00:00",
+  "workspace_root": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code",
+  "git_repository_present": false,
+  "production_checkpoint_path": "models/yolov5s_coco20k_best.pt",
+  "checkpoint_sha256": "8e75b741661acbd882cad802ab2d177cb636a0327af74dca944fbd3db5e10ee6",
+  "total_tracked_source_files": 2740,
+  "tracked_source_files_note": "No .git directory exists; this is the count of source/config/doc/test/report candidates after excluding .venv, upstream YOLOv5, raw data, and processed image/label trees.",
+  "total_test_files": 11,
+  "total_tests": 48,
+  "total_generated_result_artifacts": 2736,
+  "detected_issues": [
+    "Workspace size is 60.52 GB including raw COCO archives, processed datasets, generated predictions, and .venv; use .gitignore/Git LFS before GitHub commit.",
+    "No .git directory is present in the workspace, so tracked-file status could not be verified locally.",
+    "No repository-level LICENSE file is present.",
+    "Absolute path scan found local Windows/Kaggle paths in generated manifests and evidence artifacts; source/config defaults remain relative or portable.",
+    "Actual screenshot image files are not present in reports/screenshots; README documents the required real screenshots and no screenshots were fabricated.",
+    "FFmpeg/ffprobe are not available on PATH; browser-compatible H.264 video was still produced through OpenCV avc1."
+  ],
+  "fixed_issues": [
+    "Added browser-compatible video conversion utility and integrated it into the Flask video workflow.",
+    "Updated existing Flask video metadata to point at the verified H.264 browser-served MP4.",
+    "Added video compatibility tests and preserved backward-compatible Flask tests.",
+    "Updated README.md to the required 23-section GitHub structure with real metrics and exact Windows PowerShell commands.",
+    "Updated .gitignore for caches, local media, raw datasets, archives, logs, and checkpoint handling while preserving the production checkpoint.",
+    "Created final metrics, evidence, repository size, hygiene, configuration, cleanup, and test reports."
+  ],
+  "intentionally_preserved_issues": [
+    "models/yolov5s_coco20k_best.pt production checkpoint.",
+    "Extracted Kaggle training artifacts under artifacts/trained_coco20k_yolov5s/.",
+    "Genuine test evaluation and COCOeval outputs under results/evaluation/test_subset_2500/.",
+    "Exact deterministic manifests and annotation JSON files.",
+    "Raw COCO data and processed image/label trees, unchanged and excluded from normal Git commits.",
+    "Flask image/video outputs used as evidence.",
+    "Historical training and evaluation logs retained as audit evidence."
+  ],
+  "repository_readiness_status": "github_ready_with_size_license_screenshot_and_git_initialization_caveats"
+}

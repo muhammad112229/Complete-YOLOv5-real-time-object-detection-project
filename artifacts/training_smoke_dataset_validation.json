@@ -1,0 +1,411 @@
+{
+  "generated_at_utc": "2026-07-06T08:12:52.657278+00:00",
+  "dataset_root": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\smoke\\coco_yolov5",
+  "dataset_yaml": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\smoke\\coco_yolov5\\smoke_dataset.yaml",
+  "seed": 42,
+  "counts": {
+    "train_images": 32,
+    "val_images": 16
+  },
+  "annotation_count": 1257,
+  "represented_class_count": 80,
+  "represented_classes": [
+    {
+      "class_id": 0,
+      "class_name": "person"
+    },
+    {
+      "class_id": 1,
+      "class_name": "bicycle"
+    },
+    {
+      "class_id": 2,
+      "class_name": "car"
+    },
+    {
+      "class_id": 3,
+      "class_name": "motorcycle"
+    },
+    {
+      "class_id": 4,
+      "class_name": "airplane"
+    },
+    {
+      "class_id": 5,
+      "class_name": "bus"
+    },
+    {
+      "class_id": 6,
+      "class_name": "train"
+    },
+    {
+      "class_id": 7,
+      "class_name": "truck"
+    },
+    {
+      "class_id": 8,
+      "class_name": "boat"
+    },
+    {
+      "class_id": 9,
+      "class_name": "traffic light"
+    },
+    {
+      "class_id": 10,
+      "class_name": "fire hydrant"
+    },
+    {
+      "class_id": 11,
+      "class_name": "stop sign"
+    },
+    {
+      "class_id": 12,
+      "class_name": "parking meter"
+    },
+    {
+      "class_id": 13,
+      "class_name": "bench"
+    },
+    {
+      "class_id": 14,
+      "class_name": "bird"
+    },
+    {
+      "class_id": 15,
+      "class_name": "cat"
+    },
+    {
+      "class_id": 16,
+      "class_name": "dog"
+    },
+    {
+      "class_id": 17,
+      "class_name": "horse"
+    },
+    {
+      "class_id": 18,
+      "class_name": "sheep"
+    },
+    {
+      "class_id": 19,
+      "class_name": "cow"
+    },
+    {
+      "class_id": 20,
+      "class_name": "elephant"
+    },
+    {
+      "class_id": 21,
+      "class_name": "bear"
+    },
+    {
+      "class_id": 22,
+      "class_name": "zebra"
+    },
+    {
+      "class_id": 23,
+      "class_name": "giraffe"
+    },
+    {
+      "class_id": 24,
+      "class_name": "backpack"
+    },
+    {
+      "class_id": 25,
+      "class_name": "umbrella"
+    },
+    {
+      "class_id": 26,
+      "class_name": "handbag"
+    },
+    {
+      "class_id": 27,
+      "class_name": "tie"
+    },
+    {
+      "class_id": 28,
+      "class_name": "suitcase"
+    },
+    {
+      "class_id": 29,
+      "class_name": "frisbee"
+    },
+    {
+      "class_id": 30,
+      "class_name": "skis"
+    },
+    {
+      "class_id": 31,
+      "class_name": "snowboard"
+    },
+    {
+      "class_id": 32,
+      "class_name": "sports ball"
+    },
+    {
+      "class_id": 33,
+      "class_name": "kite"
+    },
+    {
+      "class_id": 34,
+      "class_name": "baseball bat"
+    },
+    {
+      "class_id": 35,
+      "class_name": "baseball glove"
+    },
+    {
+      "class_id": 36,
+      "class_name": "skateboard"
+    },
+    {
+      "class_id": 37,
+      "class_name": "surfboard"
+    },
+    {
+      "class_id": 38,
+      "class_name": "tennis racket"
+    },
+    {
+      "class_id": 39,
+      "class_name": "bottle"
+    },
+    {
+      "class_id": 40,
+      "class_name": "wine glass"
+    },
+    {
+      "class_id": 41,
+      "class_name": "cup"
+    },
+    {
+      "class_id": 42,
+      "class_name": "fork"
+    },
+    {
+      "class_id": 43,
+      "class_name": "knife"
+    },
+    {
+      "class_id": 44,
+      "class_name": "spoon"
+    },
+    {
+      "class_id": 45,
+      "class_name": "bowl"
+    },
+    {
+      "class_id": 46,
+      "class_name": "banana"
+    },
+    {
+      "class_id": 47,
+      "class_name": "apple"
+    },
+    {
+      "class_id": 48,
+      "class_name": "sandwich"
+    },
+    {
+      "class_id": 49,
+      "class_name": "orange"
+    },
+    {
+      "class_id": 50,
+      "class_name": "broccoli"
+    },
+    {
+      "class_id": 51,
+      "class_name": "carrot"
+    },
+    {
+      "class_id": 52,
+      "class_name": "hot dog"
+    },
+    {
+      "class_id": 53,
+      "class_name": "pizza"
+    },
+    {
+      "class_id": 54,
+      "class_name": "donut"
+    },
+    {
+      "class_id": 55,
+      "class_name": "cake"
+    },
+    {
+      "class_id": 56,
+      "class_name": "chair"
+    },
+    {
+      "class_id": 57,
+      "class_name": "couch"
+    },
+    {
+      "class_id": 58,
+      "class_name": "potted plant"
+    },
+    {
+      "class_id": 59,
+      "class_name": "bed"
+    },
+    {
+      "class_id": 60,
+      "class_name": "dining table"
+    },
+    {
+      "class_id": 61,
+      "class_name": "toilet"
+    },
+    {
+      "class_id": 62,
+      "class_name": "tv"
+    },
+    {
+      "class_id": 63,
+      "class_name": "laptop"
+    },
+    {
+      "class_id": 64,
+      "class_name": "mouse"
+    },
+    {
+      "class_id": 65,
+      "class_name": "remote"
+    },
+    {
+      "class_id": 66,
+      "class_name": "keyboard"
+    },
+    {
+      "class_id": 67,
+      "class_name": "cell phone"
+    },
+    {
+      "class_id": 68,
+      "class_name": "microwave"
+    },
+    {
+      "class_id": 69,
+      "class_name": "oven"
+    },
+    {
+      "class_id": 70,
+      "class_name": "toaster"
+    },
+    {
+      "class_id": 71,
+      "class_name": "sink"
+    },
+    {
+      "class_id": 72,
+      "class_name": "refrigerator"
+    },
+    {
+      "class_id": 73,
+      "class_name": "book"
+    },
+    {
+      "class_id": 74,
+      "class_name": "clock"
+    },
+    {
+      "class_id": 75,
+      "class_name": "vase"
+    },
+    {
+      "class_id": 76,
+      "class_name": "scissors"
+    },
+    {
+      "class_id": 77,
+      "class_name": "teddy bear"
+    },
+    {
+      "class_id": 78,
+      "class_name": "hair drier"
+    },
+    {
+      "class_id": 79,
+      "class_name": "toothbrush"
+    }
+  ],
+  "rules": [
+    {
+      "name": "train_image_count",
+      "status": "PASS",
+      "details": {
+        "count": 32,
+        "expected": 32
+      }
+    },
+    {
+      "name": "val_image_count",
+      "status": "PASS",
+      "details": {
+        "count": 16,
+        "expected": 16
+      }
+    },
+    {
+      "name": "every_image_has_label",
+      "status": "PASS",
+      "details": {
+        "missing_labels": [],
+        "missing_count": 0
+      }
+    },
+    {
+      "name": "label_format_and_ranges",
+      "status": "PASS",
+      "details": {
+        "annotation_count": 1257,
+        "error_count": 0,
+        "errors": []
+      }
+    },
+    {
+      "name": "no_smoke_split_leakage",
+      "status": "PASS",
+      "details": {
+        "source_overlap": 0,
+        "filename_overlap": 0
+      }
+    },
+    {
+      "name": "dataset_yaml_resolves",
+      "status": "PASS",
+      "details": {
+        "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\smoke\\coco_yolov5",
+        "train": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\smoke\\coco_yolov5\\images\\train",
+        "val": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\smoke\\coco_yolov5\\images\\val",
+        "nc": 80,
+        "name_count": 80
+      }
+    },
+    {
+      "name": "native_yolov5_dataloader_batch",
+      "status": "PASS",
+      "details": {
+        "status": "passed",
+        "batch_image_tensor_shape": [
+          2,
+          3,
+          640,
+          640
+        ],
+        "batch_label_tensor_shape": [
+          48,
+          6
+        ],
+        "batch_paths": [
+          "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\smoke\\coco_yolov5\\images\\train\\train2017_000000010138.jpg",
+          "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\smoke\\coco_yolov5\\images\\train\\train2017_000000024081.jpg"
+        ],
+        "dataset_length": 32
+      }
+    }
+  ],
+  "final_readiness": true
+}

@@ -1,0 +1,45 @@
+{
+  "generated_at_utc": "2026-07-13T13:18:17.795323+00:00",
+  "checkpoint_path": "models/yolov5s_coco20k_best.pt",
+  "checkpoint_exists": true,
+  "checkpoint_size": 14774895,
+  "checkpoint_hash": "8e75b741661acbd882cad802ab2d177cb636a0327af74dca944fbd3db5e10ee6",
+  "dataset_yaml": "data/processed/coco_yolo/coco_project.yaml",
+  "dataset_test_yaml_availability": true,
+  "dataset_yaml_train_value": "images/train",
+  "dataset_yaml_val_value": "images/val",
+  "dataset_yaml_test_value": "images/test",
+  "coco_annotation_json": "data/processed/coco_yolo/annotations/instances_test_subset_2500_seed42.json",
+  "coco_annotation_json_exists": true,
+  "model_class_count": 80,
+  "test_manifest": "data/splits/test_subset_2500_seed42.txt",
+  "test_manifest_availability": true,
+  "test_image_availability": true,
+  "test_label_availability": true,
+  "number_of_usable_test_images": 2500,
+  "number_of_usable_test_labels": 2500,
+  "number_of_test_instances": 17751,
+  "no_validation_data_substitution": true,
+  "no_training_data_substitution": true,
+  "full_project_test_set_ready": true,
+  "exact_2500_test_subset_manifest": {
+    "available": true,
+    "path": "data/splits/test_subset_2500_seed42.txt",
+    "candidate_files": [
+      {
+        "path": "data/splits/test_images.txt",
+        "row_count": 12330
+      },
+      {
+        "path": "data/splits/test_manifest.csv",
+        "row_count": 12330
+      },
+      {
+        "path": "data/splits/test_subset_2500_seed42.txt",
+        "row_count": 2500
+      }
+    ]
+  },
+  "evaluation_readiness_status": "ready_for_exact_2500_test_evaluation",
+  "blocking_issues": []
+}

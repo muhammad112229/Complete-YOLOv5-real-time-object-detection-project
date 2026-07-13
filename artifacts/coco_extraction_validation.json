@@ -1,0 +1,79 @@
+{
+  "generated_at_utc": "2026-07-04T18:36:40.745136+00:00",
+  "archives": {
+    "train2017": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\archives\\train2017.zip",
+      "exists": true,
+      "expected_size_bytes": 19336861798,
+      "actual_size_bytes": 19336861798,
+      "zip_integrity": "passed",
+      "error": null,
+      "verification_method": "bsdtar extraction completed successfully"
+    },
+    "val2017": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\archives\\val2017.zip",
+      "exists": true,
+      "expected_size_bytes": 815585330,
+      "actual_size_bytes": 815585330,
+      "zip_integrity": "passed",
+      "error": null,
+      "verification_method": "zipfile.testzip"
+    },
+    "annotations_trainval2017": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\archives\\annotations_trainval2017.zip",
+      "exists": true,
+      "expected_size_bytes": 252907541,
+      "actual_size_bytes": 252907541,
+      "zip_integrity": "passed",
+      "error": null,
+      "verification_method": "zipfile.testzip"
+    }
+  },
+  "extraction_root": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\coco2017",
+  "image_counts": {
+    "train2017": 118287,
+    "val2017": 5000
+  },
+  "annotation_files": {
+    "train2017": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\coco2017\\annotations\\instances_train2017.json",
+      "exists": true,
+      "valid_json": true,
+      "pycocotools_load": true,
+      "images": 118287,
+      "annotations": 860001,
+      "categories": 80
+    },
+    "val2017": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\coco2017\\annotations\\instances_val2017.json",
+      "exists": true,
+      "valid_json": true,
+      "pycocotools_load": true,
+      "images": 5000,
+      "annotations": 36781,
+      "categories": 80
+    }
+  },
+  "missing_images": {
+    "train2017": 0,
+    "val2017": 0
+  },
+  "missing_image_examples": {
+    "train2017": [],
+    "val2017": []
+  },
+  "duplicate_file_names": {
+    "train2017": 0,
+    "val2017": 0
+  },
+  "corrupt_images": {
+    "train2017": 0,
+    "val2017": 0
+  },
+  "corrupt_image_examples": {
+    "train2017": [],
+    "val2017": []
+  },
+  "valid": true,
+  "errors": []
+}

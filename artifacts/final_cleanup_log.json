@@ -1,0 +1,16 @@
+{
+  "generated_at_utc": "2026-07-13T16:29:12.851643+00:00",
+  "removed_items": [],
+  "archived_items": [],
+  "cleanup_performed": false,
+  "reason": "No destructive cleanup was performed. Generated caches, local logs, uploads, and large artifacts are documented in hygiene/size reports and controlled through .gitignore.",
+  "preserved_items": [
+    "models/yolov5s_coco20k_best.pt",
+    "artifacts/trained_coco20k_yolov5s/",
+    "results/evaluation/test_subset_2500/",
+    "data/splits/test_subset_2500_seed42.txt",
+    "outputs/flask/metadata/",
+    "outputs/flask/images/",
+    "outputs/flask/videos/"
+  ]
+}

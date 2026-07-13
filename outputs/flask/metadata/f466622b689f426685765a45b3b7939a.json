@@ -1,0 +1,26 @@
+{
+  "result_id": "f466622b689f426685765a45b3b7939a",
+  "task_type": "image",
+  "original_filename": "mermaid-diagram.png",
+  "source_path": "uploads/images/f466622b689f426685765a45b3b7939a_mermaid-diagram.png",
+  "output_path": "outputs/flask/images/f466622b689f426685765a45b3b7939a_mermaid-diagram_annotated.jpg",
+  "source_url": "/outputs/uploads/images/f466622b689f426685765a45b3b7939a_mermaid-diagram.png",
+  "output_url": "/outputs/images/f466622b689f426685765a45b3b7939a_mermaid-diagram_annotated.jpg",
+  "download_url": "/outputs/images/f466622b689f426685765a45b3b7939a_mermaid-diagram_annotated.jpg",
+  "image_width": 537,
+  "image_height": 2612,
+  "detection_count": 0,
+  "class_counts": {},
+  "confidence_statistics": {
+    "min": null,
+    "max": null,
+    "mean": null
+  },
+  "inference_time_ms": 215.356900007464,
+  "total_processing_time_ms": 237.6391999423504,
+  "confidence_threshold": 0.25,
+  "iou_threshold": 0.45,
+  "class_filter": null,
+  "detections": [],
+  "timestamp": "2026-07-13T15:42:35.344971+00:00"
+}

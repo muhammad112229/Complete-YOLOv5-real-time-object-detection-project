@@ -1,0 +1,75 @@
+{
+  "result_id": "7fab10546d2047d8bab5b889391ed1ba",
+  "task_type": "image",
+  "original_filename": "bus.jpg",
+  "source_path": "uploads/images/7fab10546d2047d8bab5b889391ed1ba_bus.jpg",
+  "output_path": "outputs/flask/images/7fab10546d2047d8bab5b889391ed1ba_bus_annotated.jpg",
+  "source_url": "/outputs/uploads/images/7fab10546d2047d8bab5b889391ed1ba_bus.jpg",
+  "output_url": "/outputs/images/7fab10546d2047d8bab5b889391ed1ba_bus_annotated.jpg",
+  "download_url": "/outputs/images/7fab10546d2047d8bab5b889391ed1ba_bus_annotated.jpg",
+  "image_width": 810,
+  "image_height": 1080,
+  "detection_count": 5,
+  "class_counts": {
+    "bus": 1,
+    "person": 4
+  },
+  "confidence_statistics": {
+    "min": 0.40709683299064636,
+    "max": 0.8497413992881775,
+    "mean": 0.7372733891010285
+  },
+  "inference_time_ms": 618.2218000758439,
+  "total_processing_time_ms": 681.4713000785559,
+  "confidence_threshold": 0.25,
+  "iou_threshold": 0.45,
+  "class_filter": null,
+  "detections": [
+    {
+      "class_id": 5,
+      "class_name": "bus",
+      "confidence": 0.8497413992881775,
+      "x1": 26.7598876953125,
+      "y1": 218.7464599609375,
+      "x2": 798.8369750976562,
+      "y2": 782.6658325195312
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.848463237285614,
+      "x1": 222.54864501953125,
+      "y1": 408.4560852050781,
+      "x2": 345.9298095703125,
+      "y2": 854.9821166992188
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.8337967991828918,
+      "x1": 43.79527282714844,
+      "y1": 387.21490478515625,
+      "x2": 243.46603393554688,
+      "y2": 909.1349487304688
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.7472686767578125,
+      "x1": 670.28466796875,
+      "y1": 372.1199035644531,
+      "x2": 809.3111572265625,
+      "y2": 883.8681030273438
+    },
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.40709683299064636,
+      "x1": 0.3222963809967041,
+      "y1": 528.9193115234375,
+      "x2": 67.2901611328125,
+      "y2": 874.4432373046875
+    }
+  ],
+  "timestamp": "2026-07-13T15:24:54.852265+00:00"
+}

@@ -1,0 +1,32 @@
+# Core runtime dependencies for the local project and YOLOv5 v7.0.
+# CPU PyTorch is pinned for local Windows/Python 3.11 smoke tests because the
+# detected GeForce 840M is a legacy compute-capability 5.0 GPU and CUDA support
+# for current PyTorch wheels could not be verified safely. PyTorch 2.5.1 is also
+# kept below the 2.6 torch.load default change that can affect YOLOv5 v7.0 checkpoints.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
+opencv-python>=4.8.0
+pycocotools>=2.0.7
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+PyYAML>=6.0
+tqdm>=4.64.0
+Pillow>=10.0.0
+Flask>=3.0.0
+pytest>=8.0.0
+psutil>=5.9.0
+onnx>=1.14.0
+onnxruntime>=1.16.0
+# YOLOv5 v7.0 imports pkg_resources, which is not present in newer setuptools.
+setuptools<81
+
+# YOLOv5 v7.0 support packages.
+gitpython>=3.1.30
+ipython>=8.0.0
+requests>=2.28.0
+scipy>=1.10.0
+thop>=0.1.1
+tensorboard>=2.12.0
+seaborn>=0.12.0

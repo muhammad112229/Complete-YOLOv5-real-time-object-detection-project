@@ -1,0 +1,94 @@
+{
+  "phase": "5A",
+  "objective": "Prepare compact reproducible Google Colab transfer bundle and setup notebook for exact COCO split reconstruction.",
+  "completed": true,
+  "full_training_started": false,
+  "colab_notebook_executed_in_colab": false,
+  "local_coco_download_started": false,
+  "bundle": {
+    "path": "transfer/yolov5_colab_bundle.zip",
+    "sha256_path": "transfer/yolov5_colab_bundle.sha256",
+    "contents_path": "transfer/yolov5_colab_bundle_contents.txt",
+    "size_bytes": 4678978,
+    "file_count": 37,
+    "sha256": "e56ae769ddb1854c7edb864574dd0554e091d57f90e72319cf9a40873e3cfa04",
+    "validation_valid": true,
+    "validation_errors": []
+  },
+  "strategy": {
+    "type": "compact_bundle_official_coco_colab_reconstruction",
+    "upload_full_local_dataset": false,
+    "download_official_coco_in_colab": true,
+    "reconstruct_exact_split_from_manifests": true,
+    "regenerate_yolo_labels_in_colab": true
+  },
+  "expected_reference": {
+    "seed": 42,
+    "train_image_count": 98629,
+    "val_image_count": 12328,
+    "test_image_count": 12330,
+    "accepted_annotation_count": 886282,
+    "excluded_crowd_annotation_count": 10498,
+    "rejected_invalid_box_count": 2,
+    "class_count": 80
+  },
+  "storage_modes": {
+    "runtime": "/content/datasets/coco2017",
+    "drive": "/content/drive/MyDrive/YOLOv5_COCO_Project/datasets/coco2017"
+  },
+  "training_guard": {
+    "start_training_default": false,
+    "runtime_error": "Training is disabled. Complete and review integrity checks first."
+  },
+  "validation": {
+    "compileall": "passed",
+    "notebook_json": "passed",
+    "bundle_validation": "passed",
+    "json_artifacts": "passed",
+    "pytest": "24 passed"
+  },
+  "created_or_modified_files": [
+    "src/prepare_coco_colab.py",
+    "src/colab_transfer.py",
+    "notebooks/YOLOv5_COCO_Training_Colab.ipynb",
+    "configs/coco_project_colab.yaml",
+    "configs/train_yolov5s_colab.yaml",
+    "configs/train_yolov5m_colab.yaml",
+    "configs/train_yolov5l_colab.yaml",
+    "tests/test_colab_transfer.py",
+    "artifacts/colab_reference_checksums.json",
+    "artifacts/colab_reference_checksums.md",
+    "artifacts/colab_training_transfer_manifest.json",
+    "artifacts/colab_training_transfer_manifest.md",
+    "artifacts/colab_bundle_report.json",
+    "artifacts/phase5a_colab_transfer_report.md",
+    "artifacts/phase5a_colab_transfer_results.json",
+    "transfer/yolov5_colab_bundle.zip",
+    "transfer/yolov5_colab_bundle.sha256",
+    "transfer/yolov5_colab_bundle_contents.txt",
+    "transfer/COLAB_TRANSFER_GUIDE.md",
+    "transfer/google_drive_upload_checklist.md",
+    "README.md",
+    "reports/requirements_traceability.md"
+  ],
+  "manual_next_steps": [
+    "Create MyDrive/YOLOv5_COCO_Project/bundles/ in Google Drive.",
+    "Upload transfer/yolov5_colab_bundle.zip.",
+    "Upload transfer/yolov5_colab_bundle.sha256.",
+    "Upload notebooks/YOLOv5_COCO_Training_Colab.ipynb.",
+    "Open the notebook in Google Colab.",
+    "Select a GPU runtime.",
+    "Run Sections 1 through 16 only.",
+    "Keep START_TRAINING = False.",
+    "Confirm all PASS integrity values before any future training."
+  ],
+  "warnings": [
+    "Notebook was not executed in Colab.",
+    "No Colab GPU result is claimed.",
+    "Full training was not started.",
+    "COCO was not downloaded again locally.",
+    "Runtime mode is temporary.",
+    "Drive mode requires substantial quota and can be slower.",
+    "Plan for at least 60 GiB free space."
+  ]
+}

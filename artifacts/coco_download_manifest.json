@@ -1,0 +1,53 @@
+{
+  "generated_at_utc": "2026-07-04T17:29:11.253494+00:00",
+  "archives_dir": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\archives",
+  "extraction_root": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\coco2017",
+  "archives": {
+    "train2017": {
+      "status": "skipped_verified",
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\archives\\train2017.zip",
+      "size_bytes": 19336861798,
+      "url": "http://images.cocodataset.org/zips/train2017.zip",
+      "expected_size_bytes": 19336861798,
+      "actual_size_bytes": 19336861798,
+      "zip_integrity": "passed"
+    },
+    "val2017": {
+      "status": "skipped_verified",
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\archives\\val2017.zip",
+      "size_bytes": 815585330,
+      "url": "http://images.cocodataset.org/zips/val2017.zip",
+      "expected_size_bytes": 815585330,
+      "actual_size_bytes": 815585330,
+      "zip_integrity": "passed"
+    },
+    "annotations_trainval2017": {
+      "status": "skipped_verified",
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\archives\\annotations_trainval2017.zip",
+      "size_bytes": 252907541,
+      "url": "http://images.cocodataset.org/annotations/annotations_trainval2017.zip",
+      "expected_size_bytes": 252907541,
+      "actual_size_bytes": 252907541,
+      "zip_integrity": "passed"
+    }
+  },
+  "extractions": {
+    "train2017": {
+      "status": "skipped_existing",
+      "target": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\coco2017\\train2017"
+    },
+    "val2017": {
+      "status": "extracted",
+      "archive": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\archives\\val2017.zip",
+      "output_dir": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\coco2017",
+      "members": 5001
+    },
+    "annotations_trainval2017": {
+      "status": "extracted",
+      "archive": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\archives\\annotations_trainval2017.zip",
+      "output_dir": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\coco2017",
+      "members": 6
+    }
+  },
+  "errors": []
+}

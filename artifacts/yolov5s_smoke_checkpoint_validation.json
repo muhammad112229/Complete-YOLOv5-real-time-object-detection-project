@@ -1,0 +1,58 @@
+{
+  "generated_at_utc": "2026-07-06T08:33:24.313926+00:00",
+  "run_dir": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\yolov5s\\smoke_test",
+  "checkpoints": {
+    "best": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\yolov5s\\smoke_test\\weights\\best.pt",
+      "exists": true,
+      "size_bytes": 14869928,
+      "load_status": "passed",
+      "metadata": {
+        "epoch": -1,
+        "best_fitness": null,
+        "model_type": "DetectionModel",
+        "nc": 80,
+        "name_count": 80,
+        "names_present_or_recoverable": true,
+        "has_model": true,
+        "has_ema": false,
+        "has_optimizer": false
+      }
+    },
+    "last": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\yolov5s\\smoke_test\\weights\\last.pt",
+      "exists": true,
+      "size_bytes": 14869928,
+      "load_status": "passed",
+      "metadata": {
+        "epoch": -1,
+        "best_fitness": null,
+        "model_type": "DetectionModel",
+        "nc": 80,
+        "name_count": 80,
+        "names_present_or_recoverable": true,
+        "has_model": true,
+        "has_ema": false,
+        "has_optimizer": false
+      }
+    }
+  },
+  "weight_update_vs_pretrained": {
+    "status": "passed",
+    "common_tensor_count": 349,
+    "changed_tensor_count": 243,
+    "total_abs_delta": 215.85959327220917,
+    "max_abs_delta": 1.8671875
+  },
+  "reload_inference": {
+    "status": "passed",
+    "checkpoint": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\yolov5s\\smoke_test\\weights\\best.pt",
+    "detection_count": 5,
+    "detected_classes": [
+      "bus",
+      "person"
+    ]
+  },
+  "valid": true,
+  "errors": []
+}

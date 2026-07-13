@@ -1,0 +1,35 @@
+{
+  "generated_at_utc": "2026-07-13T13:43:45.457515+00:00",
+  "status": "completed",
+  "annotation_json": "data/processed/coco_yolo/annotations/instances_test_subset_2500_seed42.json",
+  "yolov5_prediction_json": "results/evaluation/test_subset_2500/predictions.json",
+  "converted_prediction_json": "results/evaluation/test_subset_2500/coco_eval/coco_predictions.json",
+  "summary_json": "results/evaluation/test_subset_2500/coco_eval/coco_eval_summary.json",
+  "stdout_log": "results/evaluation/test_subset_2500/coco_eval/coco_eval_stdout.txt",
+  "conversion": {
+    "source_prediction_path": "results/evaluation/test_subset_2500/predictions.json",
+    "converted_prediction_path": "results/evaluation/test_subset_2500/coco_eval/coco_predictions.json",
+    "source_prediction_count": 508432,
+    "converted_prediction_count": 508380,
+    "dropped_unknown_image_count": 0,
+    "dropped_unknown_category_count": 0,
+    "dropped_invalid_bbox_count": 52
+  },
+  "image_count": 2500,
+  "category_count": 80,
+  "annotation_count": 17751,
+  "metrics": {
+    "AP@[0.50:0.95]": 0.378696,
+    "AP@0.50": 0.607692,
+    "AP@0.75": 0.404071,
+    "AP small": 0.147706,
+    "AP medium": 0.376504,
+    "AP large": 0.523755,
+    "AR maxDets=1": 0.302949,
+    "AR maxDets=10": 0.525675,
+    "AR maxDets=100": 0.573531,
+    "AR small": 0.313309,
+    "AR medium": 0.592047,
+    "AR large": 0.700708
+  }
+}

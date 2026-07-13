@@ -1,0 +1,22 @@
+{% set counts = result.class_counts or {} %}
+{% if counts %}
+<table class="summary-table">
+  <thead>
+    <tr><th>Class</th><th>Count</th></tr>
+  </thead>
+  <tbody>
+    {% for class_name, count in counts.items() %}
+      <tr><td>{{ class_name }}</td><td>{{ count }}</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p class="muted">No detections at the selected threshold.</p>
+{% endif %}
+{% if result.confidence_statistics %}
+<div class="info-table compact">
+  <div><span>Min confidence</span><strong>{{ result.confidence_statistics.min }}</strong></div>
+  <div><span>Mean confidence</span><strong>{{ result.confidence_statistics.mean }}</strong></div>
+  <div><span>Max confidence</span><strong>{{ result.confidence_statistics.max }}</strong></div>
+</div>
+{% endif %}

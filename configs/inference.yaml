@@ -1,0 +1,7 @@
+model_path: models/yolov5s_coco20k_best.pt
+confidence_threshold: 0.25
+iou_threshold: 0.45
+image_size: 640
+device: auto
+class_filter: null
+output_directory: outputs/inference

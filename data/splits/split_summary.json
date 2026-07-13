@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "strategy": "deterministic_random_image_level_split",
+  "category_stratification": "Random image-level split; per-class distributions are reported rather than manipulated.",
+  "image_storage_strategy": "hardlink",
+  "counts": {
+    "train": 98629,
+    "val": 12328,
+    "test": 12330
+  },
+  "percentages": {
+    "train": 79.9995,
+    "val": 9.9994,
+    "test": 10.0011
+  },
+  "annotation_counts": {
+    "train": 711796,
+    "val": 86566,
+    "test": 87920
+  },
+  "rejected_annotations": 10500
+}

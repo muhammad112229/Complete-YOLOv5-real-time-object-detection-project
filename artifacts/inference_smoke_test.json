@@ -1,0 +1,50 @@
+{
+  "generated_at_utc": "2026-07-04T11:15:31.994802+00:00",
+  "device": "cpu",
+  "reason_for_cpu": "Installed torch==2.5.1+cpu because GeForce 840M is a legacy compute-capability 5.0 GPU and CUDA support for current Windows/Python 3.11 PyTorch wheels was not verified safely.",
+  "weights": {
+    "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\models\\pretrained\\yolov5s.pt",
+    "exists": true,
+    "size_bytes": 14808437,
+    "size_mb": 14.12
+  },
+  "source_image": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\data\\images\\bus.jpg",
+  "direct_yolov5": {
+    "status": "passed",
+    "command": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\.venv\\Scripts\\python.exe external/yolov5/detect.py --weights G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\models\\pretrained\\yolov5s.pt --source G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\data\\images\\bus.jpg --imgsz 640 --conf-thres 0.25 --device cpu --project outputs/images --name smoke_test --exist-ok",
+    "output_image": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\outputs\\images\\smoke_test\\bus.jpg",
+    "preprocess_ms": 0.0,
+    "inference_ms": 382.3,
+    "nms_ms": 4.0,
+    "detected_class_names": [
+      "bus",
+      "person"
+    ],
+    "detected_instances": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "bus"
+    ],
+    "detection_count": 5,
+    "raw_detection_summary": "4 persons, 1 bus"
+  },
+  "custom_pipeline": {
+    "status": "passed",
+    "command": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\.venv\\Scripts\\python.exe -m src.detect_image --weights G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\models\\pretrained\\yolov5s.pt --source G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\data\\images\\bus.jpg --output G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\outputs\\images\\custom_smoke_test --conf-thres 0.25 --iou-thres 0.45 --device cpu --imgsz 640",
+    "output_image": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\outputs\\images\\custom_smoke_test\\bus.jpg",
+    "total_inference_ms": 421.66,
+    "fps": 2.37,
+    "detected_class_names": [
+      "bus",
+      "person"
+    ],
+    "detection_count": 5
+  },
+  "notes": [
+    "This is a pipeline smoke test, not a performance benchmark.",
+    "No COCO dataset download or training was run.",
+    "YOLOv5 emits a harmless Git path warning because the workspace path contains spaces."
+  ]
+}

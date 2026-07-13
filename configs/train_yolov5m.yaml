@@ -1,0 +1,12 @@
+model: yolov5m
+weights: models/pretrained/yolov5m.pt
+data: data/processed/coco_yolo/coco_project.yaml
+imgsz: 640
+epochs: 100
+batch_size: 12
+optimizer: SGD
+device: cpu
+seed: 42
+patience: 25
+project: results/yolov5m
+name: coco2017_yolov5m

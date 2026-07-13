@@ -1,0 +1,48 @@
+{
+  "result_id": "ba97775e694946a0a382f09227c3002c",
+  "task_type": "image",
+  "original_filename": "WhatsApp Image 2026-07-13 at 8.43.52 PM.jpeg",
+  "source_path": "uploads/images/ba97775e694946a0a382f09227c3002c_WhatsApp_Image_2026-07-13_at_8.43.52_PM.jpeg",
+  "output_path": "outputs/flask/images/ba97775e694946a0a382f09227c3002c_WhatsApp_Image_2026-07-13_at_8_43_52_PM_annotated.jpg",
+  "source_url": "/outputs/uploads/images/ba97775e694946a0a382f09227c3002c_WhatsApp_Image_2026-07-13_at_8.43.52_PM.jpeg",
+  "output_url": "/outputs/images/ba97775e694946a0a382f09227c3002c_WhatsApp_Image_2026-07-13_at_8_43_52_PM_annotated.jpg",
+  "download_url": "/outputs/images/ba97775e694946a0a382f09227c3002c_WhatsApp_Image_2026-07-13_at_8_43_52_PM_annotated.jpg",
+  "image_width": 900,
+  "image_height": 1600,
+  "detection_count": 2,
+  "class_counts": {
+    "hot dog": 1,
+    "person": 1
+  },
+  "confidence_statistics": {
+    "min": 0.3743264377117157,
+    "max": 0.7047557234764099,
+    "mean": 0.5395410805940628
+  },
+  "inference_time_ms": 313.6145999887958,
+  "total_processing_time_ms": 365.5839000130072,
+  "confidence_threshold": 0.25,
+  "iou_threshold": 0.45,
+  "class_filter": null,
+  "detections": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "confidence": 0.7047557234764099,
+      "x1": 0.8916473388671875,
+      "y1": 0.0,
+      "x2": 900.0,
+      "y2": 1467.599365234375
+    },
+    {
+      "class_id": 52,
+      "class_name": "hot dog",
+      "confidence": 0.3743264377117157,
+      "x1": 92.04034423828125,
+      "y1": 783.4442138671875,
+      "x2": 450.03692626953125,
+      "y2": 882.5814819335938
+    }
+  ],
+  "timestamp": "2026-07-13T15:44:17.213209+00:00"
+}

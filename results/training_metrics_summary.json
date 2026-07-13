@@ -1,0 +1,94 @@
+{
+  "source_results_csv": "artifacts/trained_coco20k_yolov5s/results.csv",
+  "planned_epochs_from_opt_yaml": 6,
+  "total_completed_epochs": 4,
+  "first_epoch": 0,
+  "final_epoch": 3,
+  "best_epoch": 0,
+  "best_epoch_selection_metric": "metrics/mAP_0.5:0.95",
+  "metrics": {
+    "training_box_loss": {
+      "csv_column": "train/box_loss",
+      "direction": "min",
+      "final": 0.049029,
+      "final_epoch": 3,
+      "best": 0.044267,
+      "best_epoch": 0
+    },
+    "training_objectness_loss": {
+      "csv_column": "train/obj_loss",
+      "direction": "min",
+      "final": 0.069478,
+      "final_epoch": 3,
+      "best": 0.064773,
+      "best_epoch": 0
+    },
+    "training_classification_loss": {
+      "csv_column": "train/cls_loss",
+      "direction": "min",
+      "final": 0.024622,
+      "final_epoch": 3,
+      "best": 0.018033,
+      "best_epoch": 0
+    },
+    "validation_box_loss": {
+      "csv_column": "val/box_loss",
+      "direction": "min",
+      "final": 0.048249,
+      "final_epoch": 3,
+      "best": 0.043175,
+      "best_epoch": 0
+    },
+    "validation_objectness_loss": {
+      "csv_column": "val/obj_loss",
+      "direction": "min",
+      "final": 0.050073,
+      "final_epoch": 3,
+      "best": 0.04505,
+      "best_epoch": 0
+    },
+    "validation_classification_loss": {
+      "csv_column": "val/cls_loss",
+      "direction": "min",
+      "final": 0.020313,
+      "final_epoch": 3,
+      "best": 0.012657,
+      "best_epoch": 0
+    },
+    "precision": {
+      "csv_column": "metrics/precision",
+      "direction": "max",
+      "final": 0.60543,
+      "final_epoch": 3,
+      "best": 0.70704,
+      "best_epoch": 0
+    },
+    "recall": {
+      "csv_column": "metrics/recall",
+      "direction": "max",
+      "final": 0.42989,
+      "final_epoch": 3,
+      "best": 0.55338,
+      "best_epoch": 0
+    },
+    "mAP@0.5": {
+      "csv_column": "metrics/mAP_0.5",
+      "direction": "max",
+      "final": 0.47432,
+      "final_epoch": 3,
+      "best": 0.61301,
+      "best_epoch": 0
+    },
+    "mAP@0.5:0.95": {
+      "csv_column": "metrics/mAP_0.5:0.95",
+      "direction": "max",
+      "final": 0.28149,
+      "final_epoch": 3,
+      "best": 0.38618,
+      "best_epoch": 0
+    }
+  },
+  "issues": [
+    "results.csv has 4 completed epochs, while opt.yaml planned 6 epochs"
+  ]
+}

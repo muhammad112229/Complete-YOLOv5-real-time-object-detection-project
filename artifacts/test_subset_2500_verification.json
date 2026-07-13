@@ -1,0 +1,45 @@
+{
+  "generated_at_utc": "2026-07-13T16:43:42.329346+00:00",
+  "source_full_test_manifest_path": "data/splits/test_images.txt",
+  "source_line_count": 12330,
+  "subset_manifest_path": "data/splits/test_subset_2500_seed42.txt",
+  "subset_line_count": 2500,
+  "random_seed": 42,
+  "sampling_algorithm_description": "Read full_test_paths from data/splits/test_images.txt in stored disk order, then run random.Random(42).sample(full_test_paths, 2500) without sorting before sampling.",
+  "source_manifest_sha256": "31aba29c3400af72e467f13a628c19fb70581e6abca71c4ee275b7f9ee4a4f8e",
+  "subset_manifest_sha256": "3e73eb09d1ef3eb6d41051e11efd4570e59c9808cf56d06a4da426780debe605",
+  "duplicate_count": 0,
+  "subset_duplicate_count": 0,
+  "missing_image_count": 0,
+  "missing_label_count": 0,
+  "subset_missing_image_count": 0,
+  "subset_missing_label_count": 0,
+  "subset_labeled_instance_count": 17751,
+  "first_10_sampled_entries": [
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\test\\train2017_000000504769.jpg",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\test\\train2017_000000398073.jpg",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\test\\train2017_000000015684.jpg",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\test\\train2017_000000002001.jpg",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\test\\train2017_000000558581.jpg",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\test\\train2017_000000228881.jpg",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\test\\train2017_000000161084.jpg",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\test\\train2017_000000160028.jpg",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\test\\train2017_000000023570.jpg",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\test\\train2017_000000264255.jpg"
+  ],
+  "verification_status": "passed",
+  "source_availability": {
+    "missing_image_count": 0,
+    "missing_label_count": 0,
+    "missing_images_preview": [],
+    "missing_labels_preview": [],
+    "labeled_instance_count": 87920
+  },
+  "subset_availability": {
+    "missing_image_count": 0,
+    "missing_label_count": 0,
+    "missing_images_preview": [],
+    "missing_labels_preview": [],
+    "labeled_instance_count": 17751
+  }
+}

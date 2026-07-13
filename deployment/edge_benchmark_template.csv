@@ -1,0 +1,3 @@
+device,model,format,precision,input_size,batch_size,preprocess_ms,inference_ms,nms_ms,end_to_end_fps,map_50,map_50_95,ap50,ap75,model_size_mb,power_mode,notes,date
+,,,,640,1,,,,,,,,,,,
+

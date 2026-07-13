@@ -1,0 +1,89 @@
+{
+  "generated_at_utc": "2026-07-13T17:12:55.572932+00:00",
+  "checks": [
+    {
+      "check": "inference_model_path",
+      "passed": true,
+      "details": "models/yolov5s_coco20k_best.pt"
+    },
+    {
+      "check": "evaluation_model_path",
+      "passed": true,
+      "details": "models/yolov5s_coco20k_best.pt"
+    },
+    {
+      "check": "app_model_path",
+      "passed": true,
+      "details": "models/yolov5s_coco20k_best.pt"
+    },
+    {
+      "check": "readme_model_path",
+      "passed": true,
+      "details": "README contains production checkpoint path"
+    },
+    {
+      "check": "class_count_80",
+      "passed": true,
+      "details": 80
+    },
+    {
+      "check": "inference_image_size_640",
+      "passed": true,
+      "details": 640
+    },
+    {
+      "check": "evaluation_image_size_640",
+      "passed": true,
+      "details": 640
+    },
+    {
+      "check": "app_image_size_640",
+      "passed": true,
+      "details": 640
+    },
+    {
+      "check": "inference_confidence_025",
+      "passed": true,
+      "details": 0.25
+    },
+    {
+      "check": "app_confidence_025",
+      "passed": true,
+      "details": 0.25
+    },
+    {
+      "check": "inference_iou_045",
+      "passed": true,
+      "details": 0.45
+    },
+    {
+      "check": "app_iou_045",
+      "passed": true,
+      "details": 0.45
+    },
+    {
+      "check": "device_auto_inference",
+      "passed": true,
+      "details": "auto"
+    },
+    {
+      "check": "device_auto_app",
+      "passed": true,
+      "details": "auto"
+    },
+    {
+      "check": "evaluation_test_manifest",
+      "passed": true,
+      "details": "data/splits/test_subset_2500_seed42.txt"
+    },
+    {
+      "check": "coco_annotation_json_configured",
+      "passed": true,
+      "details": "data/processed/coco_yolo/annotations/instances_test_subset_2500_seed42.json"
+    }
+  ],
+  "configuration_consistency_status": "passed",
+  "notes": [
+    "Evaluation confidence/IoU are intentionally 0.001/0.6 for YOLOv5 mAP evaluation and are not app inference defaults."
+  ]
+}

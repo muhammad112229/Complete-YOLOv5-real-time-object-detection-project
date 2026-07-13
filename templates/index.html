@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block title %}YOLOv5 Detection Dashboard{% endblock %}
+{% block content %}
+<section class="dashboard-header">
+  <div>
+    <h1>Real-Time Object Detection using YOLOv5</h1>
+    <p>Production checkpoint: <code>{{ model.model_path }}</code></p>
+  </div>
+  <div class="status-pill">Model Ready</div>
+</section>
+
+<section class="metrics-grid" id="model-information">
+  <article class="metric-card">
+    <span>Classes</span>
+    <strong>{{ model.number_of_classes or "n/a" }}</strong>
+  </article>
+  <article class="metric-card">
+    <span>Parameters</span>
+    <strong>{{ "{:,}".format(model.parameter_count) if model.parameter_count else "n/a" }}</strong>
+  </article>
+  <article class="metric-card">
+    <span>YOLOv5 mAP@0.5</span>
+    <strong>{{ model.genuine_test_map_50 }}</strong>
+  </article>
+  <article class="metric-card">
+    <span>COCOeval AP</span>
+    <strong>{{ model.official_cocoeval_ap_50_95 }}</strong>
+  </article>
+</section>
+
+<section class="workspace-grid">
+  <article class="panel" id="image-detection">
+    <h2>Image Detection</h2>
+    <form action="{{ url_for('detect_image') }}" method="post" enctype="multipart/form-data" class="upload-form">
+      <label class="drop-zone">
+        <input type="file" name="file" accept=".jpg,.jpeg,.png,.bmp,.webp" required>
+        <span>Select Image</span>
+      </label>
+      {% include "_controls.html" %}
+      <button type="submit" class="primary-button">Run Image Detection</button>
+      <div class="loading-indicator" hidden>Processing image...</div>
+    </form>
+  </article>
+
+  <article class="panel" id="video-detection">
+    <h2>Video Detection</h2>
+    <form action="{{ url_for('detect_video') }}" method="post" enctype="multipart/form-data" class="upload-form">
+      <label class="drop-zone">
+        <input type="file" name="file" accept=".mp4,.avi,.mov,.mkv,.webm" required>
+        <span>Select Video</span>
+      </label>
+      {% include "_controls.html" %}
+      <button type="submit" class="primary-button">Run Video Detection</button>
+      <div class="loading-indicator" hidden>Processing video...</div>
+    </form>
+  </article>
+</section>
+
+<section class="panel model-panel">
+  <h2>Model Information</h2>
+  <div class="info-table">
+    <div><span>Model type</span><strong>{{ model.model_type or "n/a" }}</strong></div>
+    <div><span>Checkpoint SHA256</span><strong>{{ model.checkpoint_sha256 or "n/a" }}</strong></div>
+    <div><span>Training subset</span><strong>{{ model.training_subset_size }}</strong></div>
+    <div><span>Validation subset</span><strong>{{ model.validation_subset_size }}</strong></div>
+    <div><span>Test subset</span><strong>{{ model.test_subset_size }}</strong></div>
+    <div><span>Completed epochs</span><strong>{{ model.completed_epochs }}</strong></div>
+    <div><span>Test Precision</span><strong>{{ model.genuine_test_precision }}</strong></div>
+    <div><span>Test Recall</span><strong>{{ model.genuine_test_recall }}</strong></div>
+    <div><span>Test mAP@0.5:0.95</span><strong>{{ model.genuine_test_map_50_95 }}</strong></div>
+    <div><span>COCOeval AP@0.50</span><strong>{{ model.official_cocoeval_ap_50 }}</strong></div>
+  </div>
+</section>
+
+<datalist id="class-list">
+  {% for class_name in model.class_names %}
+    <option value="{{ class_name }}"></option>
+  {% endfor %}
+</datalist>
+{% endblock %}

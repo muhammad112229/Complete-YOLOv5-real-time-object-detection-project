@@ -1,0 +1,30 @@
+{
+  "generated_at_utc": "2026-07-13T16:53:48.547625+00:00",
+  "project_title": "Real-Time Object Detection using YOLOv5",
+  "author": "Muhammad Hamzala",
+  "model_checkpoint": "models/yolov5s_coco20k_best.pt",
+  "checkpoint_sha256": "8e75b741661acbd882cad802ab2d177cb636a0327af74dca944fbd3db5e10ee6",
+  "model_classes": 80,
+  "model_parameters": 7235389,
+  "training_status": "completed_existing_artifacts_only_no_retraining",
+  "evaluation_status": "completed_genuine_2500_image_labeled_test_subset",
+  "cocoeval_status": "completed_with_pycocotools",
+  "image_inference_status": "verified",
+  "video_inference_status": "verified",
+  "physical_webcam_status": "verified_manually_observed",
+  "flask_status": "passed_home_health_model_api_smoke",
+  "tests_status": "passed",
+  "browser_video_compatibility_status": "passed_h264_opencv_avc1",
+  "documentation_status": "README_complete_with_23_required_sections_and_final_reports_created",
+  "repository_hygiene_status": "ready_with_size_and_generated-file_caveats",
+  "configuration_consistency_status": "passed",
+  "github_readiness_status": "ready_with_documented_caveats",
+  "remaining_issues": [
+    "Copy real screenshots into reports/screenshots/ using the documented filenames before final submission screenshots are expected.",
+    "Initialize or verify the Git repository; this workspace currently has no .git directory.",
+    "Review GitHub size policy and use Git LFS or exclusions for raw COCO data, generated predictions, root training ZIP, and large intermediate artifacts.",
+    "Add a LICENSE only if the project owner chooses a license.",
+    "Generated evidence artifacts contain expected local/Kaggle absolute paths; source/config defaults were verified separately."
+  ],
+  "exact_recommended_next_step": "Review .gitignore and Git LFS choices for large artifacts, copy real screenshots into reports/screenshots/, initialize/verify Git, then commit the final project state."
+}

@@ -1,0 +1,5 @@
+﻿{
+    "command":  "python -m compileall -q app.py src deployment tests",
+    "exit_code":  0,
+    "duration_seconds":  1.359
+}

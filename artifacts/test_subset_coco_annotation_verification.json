@@ -1,0 +1,24 @@
+{
+  "generated_at_utc": "2026-07-13T13:15:31.057199+00:00",
+  "source_annotation_files_used": [
+    "data/raw/coco2017/annotations/instances_train2017.json",
+    "data/raw/coco2017/annotations/instances_val2017.json"
+  ],
+  "subset_manifest_path": "data/splits/test_subset_2500_seed42.txt",
+  "selected_image_count": 2500,
+  "selected_annotation_count": 17751,
+  "category_count": 80,
+  "excluded_crowd_annotation_count": 195,
+  "rejected_invalid_box_count": 0,
+  "rejected_other_annotation_count": 0,
+  "clipped_box_count": 0,
+  "duplicate_image_id_count": 0,
+  "duplicate_annotation_id_count": 0,
+  "missing_image_mapping_count": 0,
+  "missing_label_count": 0,
+  "label_line_count": 17751,
+  "generated_json_path": "data/processed/coco_yolo/annotations/instances_test_subset_2500_seed42.json",
+  "generated_json_sha256": "ea3378d56591681f1eb8f82de6c2632ccab6b40d633a245a528a298af5689cd6",
+  "validation_errors": [],
+  "verification_status": "passed"
+}

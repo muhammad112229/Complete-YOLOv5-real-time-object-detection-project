@@ -1,0 +1,494 @@
+{
+  "generated_at_utc": "2026-07-13T16:44:28.737713+00:00",
+  "workspace_root": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code",
+  "total_repository_size_bytes": 64983190131,
+  "total_repository_size_gb": 60.52,
+  "largest_30_files": [
+    {
+      "path": "data/raw/archives/train2017.zip",
+      "size_bytes": 19336861798,
+      "size_mb": 18441.068
+    },
+    {
+      "path": "data/raw/archives/val2017.zip",
+      "size_bytes": 815585330,
+      "size_mb": 777.803
+    },
+    {
+      "path": ".venv/Lib/site-packages/torch/lib/dnnl.lib",
+      "size_bytes": 653548548,
+      "size_mb": 623.272
+    },
+    {
+      "path": "data/interim/coco_combined_annotation_manifest.json",
+      "size_bytes": 490344817,
+      "size_mb": 467.629
+    },
+    {
+      "path": "data/raw/coco2017/annotations/instances_train2017.json",
+      "size_bytes": 469785474,
+      "size_mb": 448.022
+    },
+    {
+      "path": "data/raw/archives/annotations_trainval2017.zip",
+      "size_bytes": 252907541,
+      "size_mb": 241.191
+    },
+    {
+      "path": ".venv/Lib/site-packages/torch/lib/torch_cpu.dll",
+      "size_bytes": 249312768,
+      "size_mb": 237.763
+    },
+    {
+      "path": "coco20k_yolov5s_6epochs_artifacts.zip",
+      "size_bytes": 242886999,
+      "size_mb": 231.635
+    },
+    {
+      "path": "data/raw/coco2017/annotations/person_keypoints_train2017.json",
+      "size_bytes": 238884731,
+      "size_mb": 227.818
+    },
+    {
+      "path": "data/raw/coco2017/annotations/captions_train2017.json",
+      "size_bytes": 91865115,
+      "size_mb": 87.609
+    },
+    {
+      "path": ".venv/Lib/site-packages/cv2/cv2.pyd",
+      "size_bytes": 86293504,
+      "size_mb": 82.296
+    },
+    {
+      "path": "results/evaluation/test_subset_2500/coco_eval/coco_predictions.json",
+      "size_bytes": 83694929,
+      "size_mb": 79.818
+    },
+    {
+      "path": "results/evaluation/test_subset_2500/predictions.json",
+      "size_bytes": 60860454,
+      "size_mb": 58.041
+    },
+    {
+      "path": "results/evaluation/test_subset_2500/yolov5s_coco20k_best_predictions.json",
+      "size_bytes": 60860454,
+      "size_mb": 58.041
+    },
+    {
+      "path": "artifacts/trained_coco20k_yolov5s/weights/epoch0.pt",
+      "size_bytes": 58453253,
+      "size_mb": 55.745
+    },
+    {
+      "path": "artifacts/trained_coco20k_yolov5s/weights/epoch1.pt",
+      "size_bytes": 58453253,
+      "size_mb": 55.745
+    },
+    {
+      "path": "artifacts/trained_coco20k_yolov5s/weights/epoch2.pt",
+      "size_bytes": 58453253,
+      "size_mb": 55.745
+    },
+    {
+      "path": "artifacts/trained_coco20k_yolov5s/weights/epoch3.pt",
+      "size_bytes": 58453253,
+      "size_mb": 55.745
+    },
+    {
+      "path": "data/splits/train_manifest.csv",
+      "size_bytes": 45293755,
+      "size_mb": 43.195
+    },
+    {
+      "path": ".venv/Lib/site-packages/torch/lib/libprotoc.lib",
+      "size_bytes": 39643582,
+      "size_mb": 37.807
+    },
+    {
+      "path": ".venv/Lib/site-packages/torch/lib/libprotobuf.lib",
+      "size_bytes": 37795440,
+      "size_mb": 36.045
+    },
+    {
+      "path": ".venv/Scripts/ruff.exe",
+      "size_bytes": 32307712,
+      "size_mb": 30.811
+    },
+    {
+      "path": ".venv/Lib/site-packages/cv2/opencv_videoio_ffmpeg500_64.dll",
+      "size_bytes": 30876160,
+      "size_mb": 29.446
+    },
+    {
+      "path": "data/interim/coco_combined_image_manifest.csv",
+      "size_bytes": 29167585,
+      "size_mb": 27.816
+    },
+    {
+      "path": ".venv/Lib/site-packages/torch/lib/torch_cpu.lib",
+      "size_bytes": 28452306,
+      "size_mb": 27.134
+    },
+    {
+      "path": ".venv/Lib/site-packages/torch/lib/kineto.lib",
+      "size_bytes": 21732956,
+      "size_mb": 20.726
+    },
+    {
+      "path": ".venv/Lib/site-packages/numpy.libs/libscipy_openblas64_-63c857e738469261263c764a36be9436.dll",
+      "size_bytes": 20415488,
+      "size_mb": 19.47
+    },
+    {
+      "path": ".venv/Lib/site-packages/scipy.libs/libscipy_openblas-64eda39e79589aedb16f58e5547eb599.dll",
+      "size_bytes": 20260864,
+      "size_mb": 19.322
+    },
+    {
+      "path": "data/raw/coco2017/annotations/instances_val2017.json",
+      "size_bytes": 19987840,
+      "size_mb": 19.062
+    },
+    {
+      "path": ".venv/Lib/site-packages/onnxruntime/capi/onnxruntime_pybind11_state.pyd",
+      "size_bytes": 17943904,
+      "size_mb": 17.113
+    }
+  ],
+  "files_over_25_mb": [
+    {
+      "path": "data/raw/archives/train2017.zip",
+      "size_bytes": 19336861798,
+      "size_mb": 18441.068
+    },
+    {
+      "path": "data/raw/archives/val2017.zip",
+      "size_bytes": 815585330,
+      "size_mb": 777.803
+    },
+    {
+      "path": ".venv/Lib/site-packages/torch/lib/dnnl.lib",
+      "size_bytes": 653548548,
+      "size_mb": 623.272
+    },
+    {
+      "path": "data/interim/coco_combined_annotation_manifest.json",
+      "size_bytes": 490344817,
+      "size_mb": 467.629
+    },
+    {
+      "path": "data/raw/coco2017/annotations/instances_train2017.json",
+      "size_bytes": 469785474,
+      "size_mb": 448.022
+    },
+    {
+      "path": "data/raw/archives/annotations_trainval2017.zip",
+      "size_bytes": 252907541,
+      "size_mb": 241.191
+    },
+    {
+      "path": ".venv/Lib/site-packages/torch/lib/torch_cpu.dll",
+      "size_bytes": 249312768,
+      "size_mb": 237.763
+    },
+    {
+      "path": "coco20k_yolov5s_6epochs_artifacts.zip",
+      "size_bytes": 242886999,
+      "size_mb": 231.635
+    },
+    {
+      "path": "data/raw/coco2017/annotations/person_keypoints_train2017.json",
+      "size_bytes": 238884731,
+      "size_mb": 227.818
+    },
+    {
+      "path": "data/raw/coco2017/annotations/captions_train2017.json",
+      "size_bytes": 91865115,
+      "size_mb": 87.609
+    },
+    {
+      "path": ".venv/Lib/site-packages/cv2/cv2.pyd",
+      "size_bytes": 86293504,
+      "size_mb": 82.296
+    },
+    {
+      "path": "results/evaluation/test_subset_2500/coco_eval/coco_predictions.json",
+      "size_bytes": 83694929,
+      "size_mb": 79.818
+    },
+    {
+      "path": "results/evaluation/test_subset_2500/predictions.json",
+      "size_bytes": 60860454,
+      "size_mb": 58.041
+    },
+    {
+      "path": "results/evaluation/test_subset_2500/yolov5s_coco20k_best_predictions.json",
+      "size_bytes": 60860454,
+      "size_mb": 58.041
+    },
+    {
+      "path": "artifacts/trained_coco20k_yolov5s/weights/epoch0.pt",
+      "size_bytes": 58453253,
+      "size_mb": 55.745
+    },
+    {
+      "path": "artifacts/trained_coco20k_yolov5s/weights/epoch1.pt",
+      "size_bytes": 58453253,
+      "size_mb": 55.745
+    },
+    {
+      "path": "artifacts/trained_coco20k_yolov5s/weights/epoch2.pt",
+      "size_bytes": 58453253,
+      "size_mb": 55.745
+    },
+    {
+      "path": "artifacts/trained_coco20k_yolov5s/weights/epoch3.pt",
+      "size_bytes": 58453253,
+      "size_mb": 55.745
+    },
+    {
+      "path": "data/splits/train_manifest.csv",
+      "size_bytes": 45293755,
+      "size_mb": 43.195
+    },
+    {
+      "path": ".venv/Lib/site-packages/torch/lib/libprotoc.lib",
+      "size_bytes": 39643582,
+      "size_mb": 37.807
+    },
+    {
+      "path": ".venv/Lib/site-packages/torch/lib/libprotobuf.lib",
+      "size_bytes": 37795440,
+      "size_mb": 36.045
+    },
+    {
+      "path": ".venv/Scripts/ruff.exe",
+      "size_bytes": 32307712,
+      "size_mb": 30.811
+    },
+    {
+      "path": ".venv/Lib/site-packages/cv2/opencv_videoio_ffmpeg500_64.dll",
+      "size_bytes": 30876160,
+      "size_mb": 29.446
+    },
+    {
+      "path": "data/interim/coco_combined_image_manifest.csv",
+      "size_bytes": 29167585,
+      "size_mb": 27.816
+    },
+    {
+      "path": ".venv/Lib/site-packages/torch/lib/torch_cpu.lib",
+      "size_bytes": 28452306,
+      "size_mb": 27.134
+    }
+  ],
+  "files_over_50_mb": [
+    {
+      "path": "data/raw/archives/train2017.zip",
+      "size_bytes": 19336861798,
+      "size_mb": 18441.068
+    },
+    {
+      "path": "data/raw/archives/val2017.zip",
+      "size_bytes": 815585330,
+      "size_mb": 777.803
+    },
+    {
+      "path": ".venv/Lib/site-packages/torch/lib/dnnl.lib",
+      "size_bytes": 653548548,
+      "size_mb": 623.272
+    },
+    {
+      "path": "data/interim/coco_combined_annotation_manifest.json",
+      "size_bytes": 490344817,
+      "size_mb": 467.629
+    },
+    {
+      "path": "data/raw/coco2017/annotations/instances_train2017.json",
+      "size_bytes": 469785474,
+      "size_mb": 448.022
+    },
+    {
+      "path": "data/raw/archives/annotations_trainval2017.zip",
+      "size_bytes": 252907541,
+      "size_mb": 241.191
+    },
+    {
+      "path": ".venv/Lib/site-packages/torch/lib/torch_cpu.dll",
+      "size_bytes": 249312768,
+      "size_mb": 237.763
+    },
+    {
+      "path": "coco20k_yolov5s_6epochs_artifacts.zip",
+      "size_bytes": 242886999,
+      "size_mb": 231.635
+    },
+    {
+      "path": "data/raw/coco2017/annotations/person_keypoints_train2017.json",
+      "size_bytes": 238884731,
+      "size_mb": 227.818
+    },
+    {
+      "path": "data/raw/coco2017/annotations/captions_train2017.json",
+      "size_bytes": 91865115,
+      "size_mb": 87.609
+    },
+    {
+      "path": ".venv/Lib/site-packages/cv2/cv2.pyd",
+      "size_bytes": 86293504,
+      "size_mb": 82.296
+    },
+    {
+      "path": "results/evaluation/test_subset_2500/coco_eval/coco_predictions.json",
+      "size_bytes": 83694929,
+      "size_mb": 79.818
+    },
+    {
+      "path": "results/evaluation/test_subset_2500/predictions.json",
+      "size_bytes": 60860454,
+      "size_mb": 58.041
+    },
+    {
+      "path": "results/evaluation/test_subset_2500/yolov5s_coco20k_best_predictions.json",
+      "size_bytes": 60860454,
+      "size_mb": 58.041
+    },
+    {
+      "path": "artifacts/trained_coco20k_yolov5s/weights/epoch0.pt",
+      "size_bytes": 58453253,
+      "size_mb": 55.745
+    },
+    {
+      "path": "artifacts/trained_coco20k_yolov5s/weights/epoch1.pt",
+      "size_bytes": 58453253,
+      "size_mb": 55.745
+    },
+    {
+      "path": "artifacts/trained_coco20k_yolov5s/weights/epoch2.pt",
+      "size_bytes": 58453253,
+      "size_mb": 55.745
+    },
+    {
+      "path": "artifacts/trained_coco20k_yolov5s/weights/epoch3.pt",
+      "size_bytes": 58453253,
+      "size_mb": 55.745
+    }
+  ],
+  "files_over_100_mb": [
+    {
+      "path": "data/raw/archives/train2017.zip",
+      "size_bytes": 19336861798,
+      "size_mb": 18441.068
+    },
+    {
+      "path": "data/raw/archives/val2017.zip",
+      "size_bytes": 815585330,
+      "size_mb": 777.803
+    },
+    {
+      "path": ".venv/Lib/site-packages/torch/lib/dnnl.lib",
+      "size_bytes": 653548548,
+      "size_mb": 623.272
+    },
+    {
+      "path": "data/interim/coco_combined_annotation_manifest.json",
+      "size_bytes": 490344817,
+      "size_mb": 467.629
+    },
+    {
+      "path": "data/raw/coco2017/annotations/instances_train2017.json",
+      "size_bytes": 469785474,
+      "size_mb": 448.022
+    },
+    {
+      "path": "data/raw/archives/annotations_trainval2017.zip",
+      "size_bytes": 252907541,
+      "size_mb": 241.191
+    },
+    {
+      "path": ".venv/Lib/site-packages/torch/lib/torch_cpu.dll",
+      "size_bytes": 249312768,
+      "size_mb": 237.763
+    },
+    {
+      "path": "coco20k_yolov5s_6epochs_artifacts.zip",
+      "size_bytes": 242886999,
+      "size_mb": 231.635
+    },
+    {
+      "path": "data/raw/coco2017/annotations/person_keypoints_train2017.json",
+      "size_bytes": 238884731,
+      "size_mb": 227.818
+    }
+  ],
+  "recommended_git_lfs_files": [
+    {
+      "path": "data/interim/coco_combined_annotation_manifest.json",
+      "size_bytes": 490344817,
+      "size_mb": 467.629
+    },
+    {
+      "path": "coco20k_yolov5s_6epochs_artifacts.zip",
+      "size_bytes": 242886999,
+      "size_mb": 231.635
+    },
+    {
+      "path": "results/evaluation/test_subset_2500/coco_eval/coco_predictions.json",
+      "size_bytes": 83694929,
+      "size_mb": 79.818
+    },
+    {
+      "path": "results/evaluation/test_subset_2500/predictions.json",
+      "size_bytes": 60860454,
+      "size_mb": 58.041
+    },
+    {
+      "path": "results/evaluation/test_subset_2500/yolov5s_coco20k_best_predictions.json",
+      "size_bytes": 60860454,
+      "size_mb": 58.041
+    },
+    {
+      "path": "artifacts/trained_coco20k_yolov5s/weights/epoch0.pt",
+      "size_bytes": 58453253,
+      "size_mb": 55.745
+    },
+    {
+      "path": "artifacts/trained_coco20k_yolov5s/weights/epoch1.pt",
+      "size_bytes": 58453253,
+      "size_mb": 55.745
+    },
+    {
+      "path": "artifacts/trained_coco20k_yolov5s/weights/epoch2.pt",
+      "size_bytes": 58453253,
+      "size_mb": 55.745
+    },
+    {
+      "path": "artifacts/trained_coco20k_yolov5s/weights/epoch3.pt",
+      "size_bytes": 58453253,
+      "size_mb": 55.745
+    },
+    {
+      "path": "data/splits/train_manifest.csv",
+      "size_bytes": 45293755,
+      "size_mb": 43.195
+    },
+    {
+      "path": "data/interim/coco_combined_image_manifest.csv",
+      "size_bytes": 29167585,
+      "size_mb": 27.816
+    }
+  ],
+  "recommended_exclusions": [
+    "data/raw/",
+    "data/interim/",
+    "data/processed/coco_yolo/images/",
+    "data/processed/coco_yolo/labels/",
+    ".venv/",
+    "__pycache__/",
+    ".pytest_cache/",
+    "uploads/",
+    "outputs/flask/flask_server_*.log",
+    "artifacts/trained_coco20k_yolov5s/weights/*.pt",
+    "coco20k_yolov5s_6epochs_artifacts.zip"
+  ]
+}

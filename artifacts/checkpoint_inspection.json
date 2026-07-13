@@ -1,0 +1,31 @@
+{
+  "generated_at_utc": "2026-07-13T16:36:30.810316+00:00",
+  "checkpoint_path": "models/yolov5s_coco20k_best.pt",
+  "sha256": "8e75b741661acbd882cad802ab2d177cb636a0327af74dca944fbd3db5e10ee6",
+  "file_size": 14774895,
+  "checkpoint_keys": [
+    "best_fitness",
+    "date",
+    "ema",
+    "epoch",
+    "git",
+    "model",
+    "opt",
+    "optimizer",
+    "updates"
+  ],
+  "model_type": "models.yolo.DetectionModel",
+  "number_of_classes": 80,
+  "class_names_count": 80,
+  "model_parameter_count": 7235389,
+  "trainable_parameter_count": 0,
+  "stride": [
+    8.0,
+    16.0,
+    32.0
+  ],
+  "checkpoint_epoch": -1,
+  "best_fitness": null,
+  "optimizer_state_presence": false,
+  "ema_presence": false
+}

@@ -1,0 +1,63 @@
+{
+  "generated_at_utc": "2026-07-13T16:35:32.358085+00:00",
+  "workspace": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code",
+  "os": {
+    "platform": "Windows-10-10.0.19045-SP0",
+    "system": "Windows",
+    "release": "10",
+    "version": "10.0.19045",
+    "machine": "AMD64"
+  },
+  "python_executable": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\.venv\\Scripts\\python.exe",
+  "python_version": "3.11.9",
+  "python_version_info": [
+    3,
+    11,
+    9
+  ],
+  "pip": {
+    "returncode": 0,
+    "stdout": "pip 26.1.2 from G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\.venv\\Lib\\site-packages\\pip (python 3.11)",
+    "stderr": ""
+  },
+  "git": {
+    "returncode": 0,
+    "stdout": "git version 2.52.0.windows.1",
+    "stderr": ""
+  },
+  "nvidia_smi": {
+    "returncode": 0,
+    "stdout": "NVIDIA GeForce 840M, 581.57, 2048 MiB",
+    "stderr": ""
+  },
+  "disk": {
+    "total_gb": 415.75,
+    "used_gb": 75.34,
+    "free_gb": 340.41
+  },
+  "packages": {
+    "torch": "2.5.1+cpu",
+    "torchvision": "0.20.1+cpu",
+    "cv2": "5.0.0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "matplotlib": "3.11.0",
+    "yaml": "6.0.3",
+    "pycocotools": "installed",
+    "onnx": "1.22.0",
+    "onnxruntime": "1.27.0",
+    "psutil": "7.2.2",
+    "PIL": "12.3.0",
+    "pytest": "9.1.1"
+  },
+  "pytorch": {
+    "version": "2.5.1+cpu",
+    "cuda_available": false,
+    "cuda_version": null,
+    "device_count": 0,
+    "devices": []
+  },
+  "opencv": {
+    "version": "5.0.0"
+  }
+}

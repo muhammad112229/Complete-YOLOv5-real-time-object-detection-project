@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Video Detection Result{% endblock %}
+{% block content %}
+<section class="result-header">
+  <div>
+    <h1>Video Detection Result</h1>
+    <p>{{ result.original_filename }}</p>
+  </div>
+  <a class="primary-button" href="{{ result.download_url }}" download>Download Output</a>
+</section>
+
+<section class="metrics-grid">
+  <article class="metric-card"><span>Frames</span><strong>{{ result.processed_frames }}</strong></article>
+  <article class="metric-card"><span>Detections</span><strong>{{ result.total_detections }}</strong></article>
+  <article class="metric-card"><span>Avg Inference</span><strong>{{ "%.1f"|format(result.average_inference_time_ms) }} ms</strong></article>
+  <article class="metric-card"><span>Processing FPS</span><strong>{{ "%.2f"|format(result.average_processing_fps) }}</strong></article>
+</section>
+
+<section class="panel video-panel">
+  <h2>Processed Video</h2>
+  <video src="{{ result.output_url }}" controls></video>
+</section>
+
+<section class="panel">
+  <h2>Video Summary</h2>
+  <div class="info-table">
+    <div><span>Resolution</span><strong>{{ result.width }} x {{ result.height }}</strong></div>
+    <div><span>Source FPS</span><strong>{{ "%.2f"|format(result.source_fps) }}</strong></div>
+    <div><span>Output FPS</span><strong>{{ "%.2f"|format(result.output_fps) }}</strong></div>
+    <div><span>Duration</span><strong>{{ "%.2f"|format(result.duration_seconds) }} s</strong></div>
+    <div><span>Total time</span><strong>{{ "%.2f"|format(result.total_processing_time_seconds) }} s</strong></div>
+    <div><span>Avg detections/frame</span><strong>{{ "%.2f"|format(result.average_detections_per_frame) }}</strong></div>
+  </div>
+  {% include "_summary_table.html" %}
+</section>
+{% endblock %}

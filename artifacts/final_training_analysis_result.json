@@ -1,0 +1,5 @@
+﻿{
+    "command":  "deployment/analyze_training_results.py",
+    "exit_code":  0,
+    "duration_seconds":  10.101
+}

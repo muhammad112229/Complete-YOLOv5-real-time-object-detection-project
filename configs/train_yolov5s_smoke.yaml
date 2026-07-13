@@ -1,0 +1,16 @@
+model: yolov5s
+weights: models/pretrained/yolov5s.pt
+data: data/smoke/coco_yolov5/smoke_dataset.yaml
+imgsz: 640
+epochs: 1
+batch_size: 2
+optimizer: SGD
+device: cpu
+seed: 42
+patience: 1
+project: results/yolov5s
+name: smoke_test
+workers: 0
+resume: false
+exist_ok: true
+console_log: artifacts/yolov5s_smoke_training_console.log

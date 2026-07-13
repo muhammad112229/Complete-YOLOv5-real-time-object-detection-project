@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Image Detection Result{% endblock %}
+{% block content %}
+<section class="result-header">
+  <div>
+    <h1>Image Detection Result</h1>
+    <p>{{ result.original_filename }}</p>
+  </div>
+  <a class="primary-button" href="{{ result.download_url }}" download>Download Output</a>
+</section>
+
+<section class="metrics-grid">
+  <article class="metric-card"><span>Detections</span><strong>{{ result.detection_count }}</strong></article>
+  <article class="metric-card"><span>Inference</span><strong>{{ "%.1f"|format(result.inference_time_ms) }} ms</strong></article>
+  <article class="metric-card"><span>Total Time</span><strong>{{ "%.1f"|format(result.total_processing_time_ms) }} ms</strong></article>
+  <article class="metric-card"><span>Size</span><strong>{{ result.image_width }} x {{ result.image_height }}</strong></article>
+</section>
+
+<section class="media-compare">
+  <article class="panel">
+    <h2>Original</h2>
+    <img src="{{ result.source_url }}" alt="Original upload">
+  </article>
+  <article class="panel">
+    <h2>Annotated</h2>
+    <img src="{{ result.output_url }}" alt="Annotated output">
+  </article>
+</section>
+
+<section class="panel">
+  <h2>Detection Summary</h2>
+  {% include "_summary_table.html" %}
+</section>
+{% endblock %}

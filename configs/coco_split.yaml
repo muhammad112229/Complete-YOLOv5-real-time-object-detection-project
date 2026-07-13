@@ -1,0 +1,21 @@
+dataset:
+  name: coco2017_project_split
+  source_train: data/raw/coco2017/train2017
+  source_val: data/raw/coco2017/val2017
+  annotations_train: data/raw/coco2017/annotations/instances_train2017.json
+  annotations_val: data/raw/coco2017/annotations/instances_val2017.json
+  output_root: data/processed/coco_yolo
+  split_root: data/splits
+
+split:
+  train: 0.8
+  val: 0.1
+  test: 0.1
+  seed: 42
+  level: image
+  leakage_check: true
+
+yolo:
+  image_size: 640
+  class_indexing: contiguous_zero_based_from_coco_categories
+  resize_strategy: letterbox_at_loader_or_inference

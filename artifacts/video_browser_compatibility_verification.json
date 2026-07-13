@@ -1,0 +1,48 @@
+{
+  "generated_at_utc": "2026-07-13T16:15:02.677048+00:00",
+  "source_video": "outputs/flask/videos/2de3cad407914270a34508e48cf148cf_WhatsApp_Video_2026-07-13_at_8_49_06_PM_annotated.mp4",
+  "source_codec": "FMP4",
+  "final_video": "outputs/flask/videos/2de3cad407914270a34508e48cf148cf_WhatsApp_Video_2026-07-13_at_8_49_06_PM_annotated_browser.mp4",
+  "final_codec": "h264",
+  "frame_count": 291,
+  "fps": 19.858,
+  "dimensions": {
+    "width": 474,
+    "height": 850
+  },
+  "opencv_readability": true,
+  "browser_compatible_status": true,
+  "method_used": "opencv_transcode_avc1",
+  "transcoded": true,
+  "file_sizes": {
+    "source_bytes": 6594781,
+    "final_bytes": 14166433
+  },
+  "ffmpeg_available": false,
+  "ffprobe_available": false,
+  "attempts": [
+    {
+      "codec_requested": "avc1",
+      "frames_written": 291,
+      "duration_seconds": 3.8078179999720305,
+      "output_inspection": {
+        "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\outputs\\flask\\videos\\2de3cad407914270a34508e48cf148cf_WhatsApp_Video_2026-07-13_at_8_49_06_PM_annotated_browser.mp4",
+        "exists": true,
+        "file_size_bytes": 14166433,
+        "opened": true,
+        "first_frame_read": true,
+        "codec": "h264",
+        "fourcc_int": 875967080,
+        "fps": 19.858,
+        "frame_count": 291,
+        "width": 474,
+        "height": 850
+      },
+      "candidate": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\outputs\\flask\\videos\\2de3cad407914270a34508e48cf148cf_WhatsApp_Video_2026-07-13_at_8_49_06_PM_annotated_browser.mp4",
+      "final_codec": "h264",
+      "browser_compatible": true
+    }
+  ],
+  "verification_result": "passed",
+  "note": "Browser compatibility is marked true only when the final MP4 is readable and reports an H.264/AVC codec tag."
+}

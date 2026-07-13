@@ -1,0 +1,84 @@
+{
+  "generated_at_utc": "2026-07-12T18:57:59.270305+00:00",
+  "status": "not_run",
+  "reason": "Exact 2,500-image faster-experiment test subset manifest is not available locally; validation data will not be substituted and full test evaluation was not run in this step.",
+  "config": {
+    "model_path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\models\\yolov5s_coco20k_best.pt",
+    "dataset_yaml": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\coco_project.yaml",
+    "test_manifest": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\splits\\test_manifest.csv",
+    "image_size": 640,
+    "batch_size": 16,
+    "confidence_threshold": 0.001,
+    "iou_threshold": 0.6,
+    "device": "auto",
+    "workers": 4,
+    "output_directory": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\evaluation",
+    "save_json": true,
+    "save_txt": true,
+    "save_confusion_matrix": true,
+    "save_plots": true,
+    "save_sample_predictions": true,
+    "maximum_sample_predictions": 20
+  },
+  "artifacts": {
+    "metrics_summary.json": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\evaluation\\metrics_summary.json",
+      "generated": false,
+      "reason": "Exact 2,500-image faster-experiment test subset manifest is not available locally; validation data will not be substituted and full test evaluation was not run in this step."
+    },
+    "per_class_metrics.csv": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\evaluation\\per_class_metrics.csv",
+      "generated": false,
+      "reason": "Exact 2,500-image faster-experiment test subset manifest is not available locally; validation data will not be substituted and full test evaluation was not run in this step."
+    },
+    "confusion_matrix.png": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\evaluation\\confusion_matrix.png",
+      "generated": false,
+      "reason": "Exact 2,500-image faster-experiment test subset manifest is not available locally; validation data will not be substituted and full test evaluation was not run in this step."
+    },
+    "confusion_matrix_normalized.png": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\evaluation\\confusion_matrix_normalized.png",
+      "generated": false,
+      "reason": "Exact 2,500-image faster-experiment test subset manifest is not available locally; validation data will not be substituted and full test evaluation was not run in this step."
+    },
+    "PR_curve.png": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\evaluation\\PR_curve.png",
+      "generated": false,
+      "reason": "Exact 2,500-image faster-experiment test subset manifest is not available locally; validation data will not be substituted and full test evaluation was not run in this step."
+    },
+    "P_curve.png": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\evaluation\\P_curve.png",
+      "generated": false,
+      "reason": "Exact 2,500-image faster-experiment test subset manifest is not available locally; validation data will not be substituted and full test evaluation was not run in this step."
+    },
+    "R_curve.png": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\evaluation\\R_curve.png",
+      "generated": false,
+      "reason": "Exact 2,500-image faster-experiment test subset manifest is not available locally; validation data will not be substituted and full test evaluation was not run in this step."
+    },
+    "F1_curve.png": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\evaluation\\F1_curve.png",
+      "generated": false,
+      "reason": "Exact 2,500-image faster-experiment test subset manifest is not available locally; validation data will not be substituted and full test evaluation was not run in this step."
+    },
+    "predictions.json": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\evaluation\\predictions.json",
+      "generated": false,
+      "reason": "Exact 2,500-image faster-experiment test subset manifest is not available locally; validation data will not be substituted and full test evaluation was not run in this step."
+    },
+    "labels": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\evaluation\\labels",
+      "generated": false,
+      "reason": "Exact 2,500-image faster-experiment test subset manifest is not available locally; validation data will not be substituted and full test evaluation was not run in this step."
+    },
+    "sample_predictions": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\evaluation\\sample_predictions",
+      "generated": false,
+      "reason": "Exact 2,500-image faster-experiment test subset manifest is not available locally; validation data will not be substituted and full test evaluation was not run in this step."
+    }
+  },
+  "notes": [
+    "No test metrics are reported because evaluation did not run.",
+    "Validation metrics and unlabeled sample predictions are not test-set metrics."
+  ]
+}

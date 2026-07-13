@@ -1,0 +1,618 @@
+{
+  "generated_at_utc": "2026-07-06T08:38:00.804516+00:00",
+  "warning": "These metrics are produced from a tiny one-epoch diagnostic run and must not be interpreted as the final accuracy of the trained object-detection system.",
+  "metric_label": "Smoke-test diagnostic metrics -- not final performance results.",
+  "smoke_dataset": {
+    "counts": {
+      "train_images": 32,
+      "val_images": 16
+    },
+    "annotation_count": 1257,
+    "represented_class_count": 80,
+    "represented_classes": [
+      {
+        "class_id": 0,
+        "class_name": "person"
+      },
+      {
+        "class_id": 1,
+        "class_name": "bicycle"
+      },
+      {
+        "class_id": 2,
+        "class_name": "car"
+      },
+      {
+        "class_id": 3,
+        "class_name": "motorcycle"
+      },
+      {
+        "class_id": 4,
+        "class_name": "airplane"
+      },
+      {
+        "class_id": 5,
+        "class_name": "bus"
+      },
+      {
+        "class_id": 6,
+        "class_name": "train"
+      },
+      {
+        "class_id": 7,
+        "class_name": "truck"
+      },
+      {
+        "class_id": 8,
+        "class_name": "boat"
+      },
+      {
+        "class_id": 9,
+        "class_name": "traffic light"
+      },
+      {
+        "class_id": 10,
+        "class_name": "fire hydrant"
+      },
+      {
+        "class_id": 11,
+        "class_name": "stop sign"
+      },
+      {
+        "class_id": 12,
+        "class_name": "parking meter"
+      },
+      {
+        "class_id": 13,
+        "class_name": "bench"
+      },
+      {
+        "class_id": 14,
+        "class_name": "bird"
+      },
+      {
+        "class_id": 15,
+        "class_name": "cat"
+      },
+      {
+        "class_id": 16,
+        "class_name": "dog"
+      },
+      {
+        "class_id": 17,
+        "class_name": "horse"
+      },
+      {
+        "class_id": 18,
+        "class_name": "sheep"
+      },
+      {
+        "class_id": 19,
+        "class_name": "cow"
+      },
+      {
+        "class_id": 20,
+        "class_name": "elephant"
+      },
+      {
+        "class_id": 21,
+        "class_name": "bear"
+      },
+      {
+        "class_id": 22,
+        "class_name": "zebra"
+      },
+      {
+        "class_id": 23,
+        "class_name": "giraffe"
+      },
+      {
+        "class_id": 24,
+        "class_name": "backpack"
+      },
+      {
+        "class_id": 25,
+        "class_name": "umbrella"
+      },
+      {
+        "class_id": 26,
+        "class_name": "handbag"
+      },
+      {
+        "class_id": 27,
+        "class_name": "tie"
+      },
+      {
+        "class_id": 28,
+        "class_name": "suitcase"
+      },
+      {
+        "class_id": 29,
+        "class_name": "frisbee"
+      },
+      {
+        "class_id": 30,
+        "class_name": "skis"
+      },
+      {
+        "class_id": 31,
+        "class_name": "snowboard"
+      },
+      {
+        "class_id": 32,
+        "class_name": "sports ball"
+      },
+      {
+        "class_id": 33,
+        "class_name": "kite"
+      },
+      {
+        "class_id": 34,
+        "class_name": "baseball bat"
+      },
+      {
+        "class_id": 35,
+        "class_name": "baseball glove"
+      },
+      {
+        "class_id": 36,
+        "class_name": "skateboard"
+      },
+      {
+        "class_id": 37,
+        "class_name": "surfboard"
+      },
+      {
+        "class_id": 38,
+        "class_name": "tennis racket"
+      },
+      {
+        "class_id": 39,
+        "class_name": "bottle"
+      },
+      {
+        "class_id": 40,
+        "class_name": "wine glass"
+      },
+      {
+        "class_id": 41,
+        "class_name": "cup"
+      },
+      {
+        "class_id": 42,
+        "class_name": "fork"
+      },
+      {
+        "class_id": 43,
+        "class_name": "knife"
+      },
+      {
+        "class_id": 44,
+        "class_name": "spoon"
+      },
+      {
+        "class_id": 45,
+        "class_name": "bowl"
+      },
+      {
+        "class_id": 46,
+        "class_name": "banana"
+      },
+      {
+        "class_id": 47,
+        "class_name": "apple"
+      },
+      {
+        "class_id": 48,
+        "class_name": "sandwich"
+      },
+      {
+        "class_id": 49,
+        "class_name": "orange"
+      },
+      {
+        "class_id": 50,
+        "class_name": "broccoli"
+      },
+      {
+        "class_id": 51,
+        "class_name": "carrot"
+      },
+      {
+        "class_id": 52,
+        "class_name": "hot dog"
+      },
+      {
+        "class_id": 53,
+        "class_name": "pizza"
+      },
+      {
+        "class_id": 54,
+        "class_name": "donut"
+      },
+      {
+        "class_id": 55,
+        "class_name": "cake"
+      },
+      {
+        "class_id": 56,
+        "class_name": "chair"
+      },
+      {
+        "class_id": 57,
+        "class_name": "couch"
+      },
+      {
+        "class_id": 58,
+        "class_name": "potted plant"
+      },
+      {
+        "class_id": 59,
+        "class_name": "bed"
+      },
+      {
+        "class_id": 60,
+        "class_name": "dining table"
+      },
+      {
+        "class_id": 61,
+        "class_name": "toilet"
+      },
+      {
+        "class_id": 62,
+        "class_name": "tv"
+      },
+      {
+        "class_id": 63,
+        "class_name": "laptop"
+      },
+      {
+        "class_id": 64,
+        "class_name": "mouse"
+      },
+      {
+        "class_id": 65,
+        "class_name": "remote"
+      },
+      {
+        "class_id": 66,
+        "class_name": "keyboard"
+      },
+      {
+        "class_id": 67,
+        "class_name": "cell phone"
+      },
+      {
+        "class_id": 68,
+        "class_name": "microwave"
+      },
+      {
+        "class_id": 69,
+        "class_name": "oven"
+      },
+      {
+        "class_id": 70,
+        "class_name": "toaster"
+      },
+      {
+        "class_id": 71,
+        "class_name": "sink"
+      },
+      {
+        "class_id": 72,
+        "class_name": "refrigerator"
+      },
+      {
+        "class_id": 73,
+        "class_name": "book"
+      },
+      {
+        "class_id": 74,
+        "class_name": "clock"
+      },
+      {
+        "class_id": 75,
+        "class_name": "vase"
+      },
+      {
+        "class_id": 76,
+        "class_name": "scissors"
+      },
+      {
+        "class_id": 77,
+        "class_name": "teddy bear"
+      },
+      {
+        "class_id": 78,
+        "class_name": "hair drier"
+      },
+      {
+        "class_id": 79,
+        "class_name": "toothbrush"
+      }
+    ],
+    "validation_ready": true
+  },
+  "training": {
+    "command": ".\\.venv\\Scripts\\python.exe -m src.train_models --config configs\\train_yolov5s_smoke.yaml --device cpu",
+    "model": "yolov5s",
+    "weights": "models/pretrained/yolov5s.pt",
+    "epochs": 1,
+    "batch_size": 2,
+    "imgsz": 640,
+    "optimizer": "SGD",
+    "device": "cpu",
+    "workers": 0,
+    "seed": 42,
+    "run_dir": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\yolov5s\\smoke_test",
+    "elapsed_seconds": 111.859,
+    "results_csv": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\yolov5s\\smoke_test\\results.csv",
+    "epoch": 0,
+    "training_losses": {
+      "box_loss": 0.066526,
+      "obj_loss": 0.28967,
+      "cls_loss": 0.059732
+    },
+    "validation_losses": {
+      "box_loss": 0.043424,
+      "obj_loss": 0.13474,
+      "cls_loss": 0.023367
+    },
+    "diagnostic_metrics": {
+      "precision": 0.72668,
+      "recall": 0.45811,
+      "mAP_0.5": 0.57765,
+      "mAP_0.5:0.95": 0.375
+    },
+    "learning_rates": {
+      "lr0": 0.0865,
+      "lr1": 0.0015,
+      "lr2": 0.0015
+    }
+  },
+  "native_yolov5_component_evidence": {
+    "pretrained_weights_loaded": true,
+    "model_architecture_initialized": true,
+    "training_images_discovered": true,
+    "validation_images_discovered": true,
+    "box_loss_executed": true,
+    "objectness_loss_executed": true,
+    "classification_loss_executed": true,
+    "optimizer_configured": true,
+    "validation_completed": true,
+    "checkpoint_logged": true,
+    "forward_pass_completed": true,
+    "augmentation_pipeline_executed": true,
+    "learning_rate_scheduling_executed": true,
+    "backward_and_optimizer_update_completed": true,
+    "best_checkpoint_written": true,
+    "last_checkpoint_written": true
+  },
+  "checkpoint_validation": {
+    "generated_at_utc": "2026-07-06T08:33:24.313926+00:00",
+    "run_dir": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\yolov5s\\smoke_test",
+    "checkpoints": {
+      "best": {
+        "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\yolov5s\\smoke_test\\weights\\best.pt",
+        "exists": true,
+        "size_bytes": 14869928,
+        "load_status": "passed",
+        "metadata": {
+          "epoch": -1,
+          "best_fitness": null,
+          "model_type": "DetectionModel",
+          "nc": 80,
+          "name_count": 80,
+          "names_present_or_recoverable": true,
+          "has_model": true,
+          "has_ema": false,
+          "has_optimizer": false
+        }
+      },
+      "last": {
+        "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\yolov5s\\smoke_test\\weights\\last.pt",
+        "exists": true,
+        "size_bytes": 14869928,
+        "load_status": "passed",
+        "metadata": {
+          "epoch": -1,
+          "best_fitness": null,
+          "model_type": "DetectionModel",
+          "nc": 80,
+          "name_count": 80,
+          "names_present_or_recoverable": true,
+          "has_model": true,
+          "has_ema": false,
+          "has_optimizer": false
+        }
+      }
+    },
+    "weight_update_vs_pretrained": {
+      "status": "passed",
+      "common_tensor_count": 349,
+      "changed_tensor_count": 243,
+      "total_abs_delta": 215.85959327220917,
+      "max_abs_delta": 1.8671875
+    },
+    "reload_inference": {
+      "status": "passed",
+      "checkpoint": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\yolov5s\\smoke_test\\weights\\best.pt",
+      "detection_count": 5,
+      "detected_classes": [
+        "bus",
+        "person"
+      ]
+    },
+    "valid": true,
+    "errors": []
+  },
+  "post_training_inference": {
+    "generated_at_utc": "2026-07-06T08:33:25.780309+00:00",
+    "status": "passed",
+    "checkpoint": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\yolov5s\\smoke_test\\weights\\best.pt",
+    "source": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\data\\images\\bus.jpg",
+    "output": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\outputs\\images\\training_smoke_test\\bus.jpg",
+    "image_size": 640,
+    "confidence_threshold": 0.25,
+    "iou_threshold": 0.45,
+    "detected_classes": [
+      "bus",
+      "person"
+    ],
+    "detection_count": 5,
+    "preprocessing_time_ms": 7.99560546875,
+    "inference_time_ms": 354.4504642486572,
+    "nms_time_ms": 0.0,
+    "total_pipeline_time_ms": 377.704199985601,
+    "model_load_time_ms": 543.4759999916423,
+    "timing_context": "diagnostic CPU timing only; not a final real-time speed result",
+    "detections": [
+      {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.896117627620697,
+        "x1": 672.7282104492188,
+        "y1": 399.5812072753906,
+        "x2": 808.7925415039062,
+        "y2": 873.3244018554688
+      },
+      {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.8691341280937195,
+        "x1": 222.24411010742188,
+        "y1": 411.36328125,
+        "x2": 345.2070617675781,
+        "y2": 862.0938110351562
+      },
+      {
+        "class_id": 5,
+        "class_name": "bus",
+        "confidence": 0.8578073978424072,
+        "x1": 18.927881240844727,
+        "y1": 239.3129425048828,
+        "x2": 796.4434204101562,
+        "y2": 754.6491088867188
+      },
+      {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.8504857420921326,
+        "x1": 51.32118225097656,
+        "y1": 394.0632019042969,
+        "x2": 248.5457305908203,
+        "y2": 907.757080078125
+      },
+      {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.6621026396751404,
+        "x1": 1.0132570266723633,
+        "y1": 558.314208984375,
+        "x2": 68.83165740966797,
+        "y2": 874.13671875
+      }
+    ]
+  },
+  "console_log": {
+    "log_path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\artifacts\\yolov5s_smoke_training_console.log",
+    "checks": {
+      "pretrained_weights_loaded": true,
+      "model_architecture_initialized": true,
+      "training_images_discovered": true,
+      "validation_images_discovered": true,
+      "box_loss_executed": true,
+      "objectness_loss_executed": true,
+      "classification_loss_executed": true,
+      "optimizer_configured": true,
+      "validation_completed": true,
+      "checkpoint_logged": true
+    },
+    "warnings": [
+      "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\utils\\general.py:34: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.",
+      "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:123: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.",
+      "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:252: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.",
+      "0%|          | 0/16 00:00G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+      "0/0         0G    0.06802     0.3185    0.03798        103        640:   6%|\u258b         | 1/16 00:10G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+      "0/0         0G     0.0686     0.3736    0.04276        167        640:  12%|\u2588\u258e        | 2/16 00:13G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+      "0/0         0G    0.06732     0.3234    0.04442         78        640:  19%|\u2588\u2589        | 3/16 00:17G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+      "0/0         0G     0.0677     0.3057    0.05199         60        640:  25%|\u2588\u2588\u258c       | 4/16 00:20G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+      "0/0         0G    0.06738      0.296    0.05433        117        640:  31%|\u2588\u2588\u2588\u258f      | 5/16 00:23G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+      "0/0         0G    0.06655     0.2797    0.05437        106        640:  38%|\u2588\u2588\u2588\u258a      | 6/16 00:25G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+      "0/0         0G     0.0664      0.277    0.05367        106        640:  44%|\u2588\u2588\u2588\u2588\u258d     | 7/16 00:28G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+      "0/0         0G    0.06661     0.2828    0.05419        137        640:  50%|\u2588\u2588\u2588\u2588\u2588     | 8/16 00:31G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+      "0/0         0G    0.06731     0.2896    0.05538        146        640:  56%|\u2588\u2588\u2588\u2588\u2588\u258b    | 9/16 00:34G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+      "0/0         0G    0.06663     0.2769    0.05518         48        640:  62%|\u2588\u2588\u2588\u2588\u2588\u2588\u258e   | 10/16 00:37G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+      "0/0         0G    0.06642     0.2825    0.05875         65        640:  69%|\u2588\u2588\u2588\u2588\u2588\u2588\u2589   | 11/16 00:39G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+      "0/0         0G    0.06663     0.2822    0.05942         99        640:  75%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258c  | 12/16 00:42G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+      "0/0         0G    0.06667     0.2896    0.05864        132        640:  81%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258f | 13/16 00:45G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+      "0/0         0G    0.06648     0.2812     0.0598         53        640:  88%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258a | 14/16 00:47G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+      "0/0         0G    0.06658     0.2827    0.05938        159        640:  94%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258d| 15/16 00:50G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+      "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\utils\\general.py:1004: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.",
+      "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\models\\experimental.py:79: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature."
+    ],
+    "line_count": 232
+  },
+  "warnings": [
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\utils\\general.py:34: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:123: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:252: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.",
+    "0%|          | 0/16 00:00G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+    "0/0         0G    0.06802     0.3185    0.03798        103        640:   6%|\u258b         | 1/16 00:10G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+    "0/0         0G     0.0686     0.3736    0.04276        167        640:  12%|\u2588\u258e        | 2/16 00:13G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+    "0/0         0G    0.06732     0.3234    0.04442         78        640:  19%|\u2588\u2589        | 3/16 00:17G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+    "0/0         0G     0.0677     0.3057    0.05199         60        640:  25%|\u2588\u2588\u258c       | 4/16 00:20G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+    "0/0         0G    0.06738      0.296    0.05433        117        640:  31%|\u2588\u2588\u2588\u258f      | 5/16 00:23G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+    "0/0         0G    0.06655     0.2797    0.05437        106        640:  38%|\u2588\u2588\u2588\u258a      | 6/16 00:25G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+    "0/0         0G     0.0664      0.277    0.05367        106        640:  44%|\u2588\u2588\u2588\u2588\u258d     | 7/16 00:28G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+    "0/0         0G    0.06661     0.2828    0.05419        137        640:  50%|\u2588\u2588\u2588\u2588\u2588     | 8/16 00:31G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+    "0/0         0G    0.06731     0.2896    0.05538        146        640:  56%|\u2588\u2588\u2588\u2588\u2588\u258b    | 9/16 00:34G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+    "0/0         0G    0.06663     0.2769    0.05518         48        640:  62%|\u2588\u2588\u2588\u2588\u2588\u2588\u258e   | 10/16 00:37G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+    "0/0         0G    0.06642     0.2825    0.05875         65        640:  69%|\u2588\u2588\u2588\u2588\u2588\u2588\u2589   | 11/16 00:39G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+    "0/0         0G    0.06663     0.2822    0.05942         99        640:  75%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258c  | 12/16 00:42G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+    "0/0         0G    0.06667     0.2896    0.05864        132        640:  81%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258f | 13/16 00:45G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+    "0/0         0G    0.06648     0.2812     0.0598         53        640:  88%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258a | 14/16 00:47G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+    "0/0         0G    0.06658     0.2827    0.05938        159        640:  94%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258d| 15/16 00:50G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\train.py:307: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\utils\\general.py:1004: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\models\\experimental.py:79: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature."
+  ],
+  "fixes_applied": [
+    "Resolved wrapper paths relative to the workspace before invoking YOLOv5 from external/yolov5.",
+    "Added smoke-test overrides for dataset, output directory, batch size, epochs, workers, and console capture.",
+    "Created deterministic hardlinked smoke dataset utilities and validation artifacts.",
+    "Configured YOLOV5_CONFIG_DIR to a workspace-local font cache to avoid network font downloads.",
+    "Patched YOLOv5 v7.0 Pillow 12 text sizing compatibility for plot generation.",
+    "Patched YOLOv5 v7.0 NumPy 2.x AP integration compatibility."
+  ],
+  "full_training_readiness": true,
+  "quality_checks": {
+    "compileall": "passed",
+    "pytest": "15 passed in 9.08s",
+    "verify_setup.py": "passed",
+    "notebook_json_validation": "passed",
+    "smoke_dataset_validation": "passed",
+    "checkpoint_reload_validation": "passed",
+    "post_training_inference": "passed"
+  },
+  "recovery": {
+    "audit": "artifacts/phase4_recovery_audit.md",
+    "complete_before_resume": [
+      "smoke utility scaffolding",
+      "smoke config",
+      "32/16 hardlinked smoke subset",
+      "smoke dataset validation"
+    ],
+    "completed_after_resume": [
+      "preserved failed diagnostic attempts",
+      "offline font configuration",
+      "Pillow 12 compatibility patch",
+      "NumPy 2.x compatibility patch",
+      "successful YOLOv5s one-epoch CPU smoke training",
+      "checkpoint validation",
+      "post-training inference",
+      "quality checks",
+      "Colab transfer manifest",
+      "documentation updates"
+    ]
+  }
+}

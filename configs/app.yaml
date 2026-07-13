@@ -1,0 +1,41 @@
+app:
+  host: "127.0.0.1"
+  port: 5000
+  debug: false
+  threaded: true
+
+model:
+  path: "models/yolov5s_coco20k_best.pt"
+  device: "auto"
+  image_size: 640
+
+inference:
+  confidence_threshold: 0.25
+  iou_threshold: 0.45
+  maximum_upload_size_mb: 500
+
+webcam:
+  default_camera_index: 0
+  jpeg_quality: 85
+  target_fps: 15
+
+paths:
+  upload_directory: "uploads"
+  output_directory: "outputs/flask"
+  image_output_directory: "outputs/flask/images"
+  video_output_directory: "outputs/flask/videos"
+  metadata_directory: "outputs/flask/metadata"
+
+allowed_extensions:
+  images:
+    - jpg
+    - jpeg
+    - png
+    - bmp
+    - webp
+  videos:
+    - mp4
+    - avi
+    - mov
+    - mkv
+    - webm

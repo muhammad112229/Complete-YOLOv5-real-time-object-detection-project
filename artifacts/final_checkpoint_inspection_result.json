@@ -1,0 +1,5 @@
+﻿{
+    "command":  "python -m src.inspect_checkpoint",
+    "exit_code":  0,
+    "duration_seconds":  23.858
+}

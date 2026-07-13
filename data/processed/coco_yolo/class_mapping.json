@@ -1,0 +1,482 @@
+{
+  "1": {
+    "class_id": 0,
+    "coco_category_id": 1,
+    "name": "person",
+    "supercategory": "person"
+  },
+  "2": {
+    "class_id": 1,
+    "coco_category_id": 2,
+    "name": "bicycle",
+    "supercategory": "vehicle"
+  },
+  "3": {
+    "class_id": 2,
+    "coco_category_id": 3,
+    "name": "car",
+    "supercategory": "vehicle"
+  },
+  "4": {
+    "class_id": 3,
+    "coco_category_id": 4,
+    "name": "motorcycle",
+    "supercategory": "vehicle"
+  },
+  "5": {
+    "class_id": 4,
+    "coco_category_id": 5,
+    "name": "airplane",
+    "supercategory": "vehicle"
+  },
+  "6": {
+    "class_id": 5,
+    "coco_category_id": 6,
+    "name": "bus",
+    "supercategory": "vehicle"
+  },
+  "7": {
+    "class_id": 6,
+    "coco_category_id": 7,
+    "name": "train",
+    "supercategory": "vehicle"
+  },
+  "8": {
+    "class_id": 7,
+    "coco_category_id": 8,
+    "name": "truck",
+    "supercategory": "vehicle"
+  },
+  "9": {
+    "class_id": 8,
+    "coco_category_id": 9,
+    "name": "boat",
+    "supercategory": "vehicle"
+  },
+  "10": {
+    "class_id": 9,
+    "coco_category_id": 10,
+    "name": "traffic light",
+    "supercategory": "outdoor"
+  },
+  "11": {
+    "class_id": 10,
+    "coco_category_id": 11,
+    "name": "fire hydrant",
+    "supercategory": "outdoor"
+  },
+  "13": {
+    "class_id": 11,
+    "coco_category_id": 13,
+    "name": "stop sign",
+    "supercategory": "outdoor"
+  },
+  "14": {
+    "class_id": 12,
+    "coco_category_id": 14,
+    "name": "parking meter",
+    "supercategory": "outdoor"
+  },
+  "15": {
+    "class_id": 13,
+    "coco_category_id": 15,
+    "name": "bench",
+    "supercategory": "outdoor"
+  },
+  "16": {
+    "class_id": 14,
+    "coco_category_id": 16,
+    "name": "bird",
+    "supercategory": "animal"
+  },
+  "17": {
+    "class_id": 15,
+    "coco_category_id": 17,
+    "name": "cat",
+    "supercategory": "animal"
+  },
+  "18": {
+    "class_id": 16,
+    "coco_category_id": 18,
+    "name": "dog",
+    "supercategory": "animal"
+  },
+  "19": {
+    "class_id": 17,
+    "coco_category_id": 19,
+    "name": "horse",
+    "supercategory": "animal"
+  },
+  "20": {
+    "class_id": 18,
+    "coco_category_id": 20,
+    "name": "sheep",
+    "supercategory": "animal"
+  },
+  "21": {
+    "class_id": 19,
+    "coco_category_id": 21,
+    "name": "cow",
+    "supercategory": "animal"
+  },
+  "22": {
+    "class_id": 20,
+    "coco_category_id": 22,
+    "name": "elephant",
+    "supercategory": "animal"
+  },
+  "23": {
+    "class_id": 21,
+    "coco_category_id": 23,
+    "name": "bear",
+    "supercategory": "animal"
+  },
+  "24": {
+    "class_id": 22,
+    "coco_category_id": 24,
+    "name": "zebra",
+    "supercategory": "animal"
+  },
+  "25": {
+    "class_id": 23,
+    "coco_category_id": 25,
+    "name": "giraffe",
+    "supercategory": "animal"
+  },
+  "27": {
+    "class_id": 24,
+    "coco_category_id": 27,
+    "name": "backpack",
+    "supercategory": "accessory"
+  },
+  "28": {
+    "class_id": 25,
+    "coco_category_id": 28,
+    "name": "umbrella",
+    "supercategory": "accessory"
+  },
+  "31": {
+    "class_id": 26,
+    "coco_category_id": 31,
+    "name": "handbag",
+    "supercategory": "accessory"
+  },
+  "32": {
+    "class_id": 27,
+    "coco_category_id": 32,
+    "name": "tie",
+    "supercategory": "accessory"
+  },
+  "33": {
+    "class_id": 28,
+    "coco_category_id": 33,
+    "name": "suitcase",
+    "supercategory": "accessory"
+  },
+  "34": {
+    "class_id": 29,
+    "coco_category_id": 34,
+    "name": "frisbee",
+    "supercategory": "sports"
+  },
+  "35": {
+    "class_id": 30,
+    "coco_category_id": 35,
+    "name": "skis",
+    "supercategory": "sports"
+  },
+  "36": {
+    "class_id": 31,
+    "coco_category_id": 36,
+    "name": "snowboard",
+    "supercategory": "sports"
+  },
+  "37": {
+    "class_id": 32,
+    "coco_category_id": 37,
+    "name": "sports ball",
+    "supercategory": "sports"
+  },
+  "38": {
+    "class_id": 33,
+    "coco_category_id": 38,
+    "name": "kite",
+    "supercategory": "sports"
+  },
+  "39": {
+    "class_id": 34,
+    "coco_category_id": 39,
+    "name": "baseball bat",
+    "supercategory": "sports"
+  },
+  "40": {
+    "class_id": 35,
+    "coco_category_id": 40,
+    "name": "baseball glove",
+    "supercategory": "sports"
+  },
+  "41": {
+    "class_id": 36,
+    "coco_category_id": 41,
+    "name": "skateboard",
+    "supercategory": "sports"
+  },
+  "42": {
+    "class_id": 37,
+    "coco_category_id": 42,
+    "name": "surfboard",
+    "supercategory": "sports"
+  },
+  "43": {
+    "class_id": 38,
+    "coco_category_id": 43,
+    "name": "tennis racket",
+    "supercategory": "sports"
+  },
+  "44": {
+    "class_id": 39,
+    "coco_category_id": 44,
+    "name": "bottle",
+    "supercategory": "kitchen"
+  },
+  "46": {
+    "class_id": 40,
+    "coco_category_id": 46,
+    "name": "wine glass",
+    "supercategory": "kitchen"
+  },
+  "47": {
+    "class_id": 41,
+    "coco_category_id": 47,
+    "name": "cup",
+    "supercategory": "kitchen"
+  },
+  "48": {
+    "class_id": 42,
+    "coco_category_id": 48,
+    "name": "fork",
+    "supercategory": "kitchen"
+  },
+  "49": {
+    "class_id": 43,
+    "coco_category_id": 49,
+    "name": "knife",
+    "supercategory": "kitchen"
+  },
+  "50": {
+    "class_id": 44,
+    "coco_category_id": 50,
+    "name": "spoon",
+    "supercategory": "kitchen"
+  },
+  "51": {
+    "class_id": 45,
+    "coco_category_id": 51,
+    "name": "bowl",
+    "supercategory": "kitchen"
+  },
+  "52": {
+    "class_id": 46,
+    "coco_category_id": 52,
+    "name": "banana",
+    "supercategory": "food"
+  },
+  "53": {
+    "class_id": 47,
+    "coco_category_id": 53,
+    "name": "apple",
+    "supercategory": "food"
+  },
+  "54": {
+    "class_id": 48,
+    "coco_category_id": 54,
+    "name": "sandwich",
+    "supercategory": "food"
+  },
+  "55": {
+    "class_id": 49,
+    "coco_category_id": 55,
+    "name": "orange",
+    "supercategory": "food"
+  },
+  "56": {
+    "class_id": 50,
+    "coco_category_id": 56,
+    "name": "broccoli",
+    "supercategory": "food"
+  },
+  "57": {
+    "class_id": 51,
+    "coco_category_id": 57,
+    "name": "carrot",
+    "supercategory": "food"
+  },
+  "58": {
+    "class_id": 52,
+    "coco_category_id": 58,
+    "name": "hot dog",
+    "supercategory": "food"
+  },
+  "59": {
+    "class_id": 53,
+    "coco_category_id": 59,
+    "name": "pizza",
+    "supercategory": "food"
+  },
+  "60": {
+    "class_id": 54,
+    "coco_category_id": 60,
+    "name": "donut",
+    "supercategory": "food"
+  },
+  "61": {
+    "class_id": 55,
+    "coco_category_id": 61,
+    "name": "cake",
+    "supercategory": "food"
+  },
+  "62": {
+    "class_id": 56,
+    "coco_category_id": 62,
+    "name": "chair",
+    "supercategory": "furniture"
+  },
+  "63": {
+    "class_id": 57,
+    "coco_category_id": 63,
+    "name": "couch",
+    "supercategory": "furniture"
+  },
+  "64": {
+    "class_id": 58,
+    "coco_category_id": 64,
+    "name": "potted plant",
+    "supercategory": "furniture"
+  },
+  "65": {
+    "class_id": 59,
+    "coco_category_id": 65,
+    "name": "bed",
+    "supercategory": "furniture"
+  },
+  "67": {
+    "class_id": 60,
+    "coco_category_id": 67,
+    "name": "dining table",
+    "supercategory": "furniture"
+  },
+  "70": {
+    "class_id": 61,
+    "coco_category_id": 70,
+    "name": "toilet",
+    "supercategory": "furniture"
+  },
+  "72": {
+    "class_id": 62,
+    "coco_category_id": 72,
+    "name": "tv",
+    "supercategory": "electronic"
+  },
+  "73": {
+    "class_id": 63,
+    "coco_category_id": 73,
+    "name": "laptop",
+    "supercategory": "electronic"
+  },
+  "74": {
+    "class_id": 64,
+    "coco_category_id": 74,
+    "name": "mouse",
+    "supercategory": "electronic"
+  },
+  "75": {
+    "class_id": 65,
+    "coco_category_id": 75,
+    "name": "remote",
+    "supercategory": "electronic"
+  },
+  "76": {
+    "class_id": 66,
+    "coco_category_id": 76,
+    "name": "keyboard",
+    "supercategory": "electronic"
+  },
+  "77": {
+    "class_id": 67,
+    "coco_category_id": 77,
+    "name": "cell phone",
+    "supercategory": "electronic"
+  },
+  "78": {
+    "class_id": 68,
+    "coco_category_id": 78,
+    "name": "microwave",
+    "supercategory": "appliance"
+  },
+  "79": {
+    "class_id": 69,
+    "coco_category_id": 79,
+    "name": "oven",
+    "supercategory": "appliance"
+  },
+  "80": {
+    "class_id": 70,
+    "coco_category_id": 80,
+    "name": "toaster",
+    "supercategory": "appliance"
+  },
+  "81": {
+    "class_id": 71,
+    "coco_category_id": 81,
+    "name": "sink",
+    "supercategory": "appliance"
+  },
+  "82": {
+    "class_id": 72,
+    "coco_category_id": 82,
+    "name": "refrigerator",
+    "supercategory": "appliance"
+  },
+  "84": {
+    "class_id": 73,
+    "coco_category_id": 84,
+    "name": "book",
+    "supercategory": "indoor"
+  },
+  "85": {
+    "class_id": 74,
+    "coco_category_id": 85,
+    "name": "clock",
+    "supercategory": "indoor"
+  },
+  "86": {
+    "class_id": 75,
+    "coco_category_id": 86,
+    "name": "vase",
+    "supercategory": "indoor"
+  },
+  "87": {
+    "class_id": 76,
+    "coco_category_id": 87,
+    "name": "scissors",
+    "supercategory": "indoor"
+  },
+  "88": {
+    "class_id": 77,
+    "coco_category_id": 88,
+    "name": "teddy bear",
+    "supercategory": "indoor"
+  },
+  "89": {
+    "class_id": 78,
+    "coco_category_id": 89,
+    "name": "hair drier",
+    "supercategory": "indoor"
+  },
+  "90": {
+    "class_id": 79,
+    "coco_category_id": 90,
+    "name": "toothbrush",
+    "supercategory": "indoor"
+  }
+}

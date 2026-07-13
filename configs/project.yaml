@@ -1,0 +1,43 @@
+project:
+  name: Real-Time Object Detection using YOLOv5
+  seed: 42
+  yolov5_tag: v7.0
+  image_size: 640
+  dataset: COCO 2017
+
+paths:
+  yolov5_root: external/yolov5
+  raw_data: data/raw
+  coco_raw_data: data/raw/coco2017
+  interim_data: data/interim
+  processed_data: data/processed/coco_yolo
+  splits: data/splits
+  pretrained_models: models/pretrained
+  trained_models: models/trained
+  optimized_models: models/optimized
+  outputs: outputs
+  results: results
+  artifacts: artifacts
+
+models:
+  production:
+    weights: models/yolov5s_coco20k_best.pt
+    config: yolov5s.yaml
+  yolov5s:
+    weights: models/pretrained/yolov5s.pt
+    config: yolov5s.yaml
+  yolov5m:
+    weights: models/pretrained/yolov5m.pt
+    config: yolov5m.yaml
+  yolov5l:
+    weights: models/pretrained/yolov5l.pt
+    config: yolov5l.yaml
+
+inference:
+  model_path: models/yolov5s_coco20k_best.pt
+  confidence_threshold: 0.25
+  iou_threshold: 0.45
+  image_size: 640
+  device: auto
+  class_filter: null
+  output_directory: outputs/inference

@@ -1,0 +1,760 @@
+{
+  "generated_at_utc": "2026-07-05T08:03:37.668464+00:00",
+  "duration_seconds": 52466,
+  "download_urls": {
+    "train2017": "http://images.cocodataset.org/zips/train2017.zip",
+    "val2017": "http://images.cocodataset.org/zips/val2017.zip",
+    "annotations_trainval2017": "http://images.cocodataset.org/annotations/annotations_trainval2017.zip"
+  },
+  "source_stats": {
+    "train2017": null,
+    "val2017": null
+  },
+  "extraction": {
+    "generated_at_utc": "2026-07-04T18:36:40.745136+00:00",
+    "archives": {
+      "train2017": {
+        "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\archives\\train2017.zip",
+        "exists": true,
+        "expected_size_bytes": 19336861798,
+        "actual_size_bytes": 19336861798,
+        "zip_integrity": "passed",
+        "error": null,
+        "verification_method": "bsdtar extraction completed successfully"
+      },
+      "val2017": {
+        "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\archives\\val2017.zip",
+        "exists": true,
+        "expected_size_bytes": 815585330,
+        "actual_size_bytes": 815585330,
+        "zip_integrity": "passed",
+        "error": null,
+        "verification_method": "zipfile.testzip"
+      },
+      "annotations_trainval2017": {
+        "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\archives\\annotations_trainval2017.zip",
+        "exists": true,
+        "expected_size_bytes": 252907541,
+        "actual_size_bytes": 252907541,
+        "zip_integrity": "passed",
+        "error": null,
+        "verification_method": "zipfile.testzip"
+      }
+    },
+    "extraction_root": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\coco2017",
+    "image_counts": {
+      "train2017": 118287,
+      "val2017": 5000
+    },
+    "annotation_files": {
+      "train2017": {
+        "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\coco2017\\annotations\\instances_train2017.json",
+        "exists": true,
+        "valid_json": true,
+        "pycocotools_load": true,
+        "images": 118287,
+        "annotations": 860001,
+        "categories": 80
+      },
+      "val2017": {
+        "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\raw\\coco2017\\annotations\\instances_val2017.json",
+        "exists": true,
+        "valid_json": true,
+        "pycocotools_load": true,
+        "images": 5000,
+        "annotations": 36781,
+        "categories": 80
+      }
+    },
+    "missing_images": {
+      "train2017": 0,
+      "val2017": 0
+    },
+    "missing_image_examples": {
+      "train2017": [],
+      "val2017": []
+    },
+    "duplicate_file_names": {
+      "train2017": 0,
+      "val2017": 0
+    },
+    "corrupt_images": {
+      "train2017": 0,
+      "val2017": 0
+    },
+    "corrupt_image_examples": {
+      "train2017": [],
+      "val2017": []
+    },
+    "valid": true,
+    "errors": []
+  },
+  "split_summary": {
+    "seed": 42,
+    "strategy": "deterministic_random_image_level_split",
+    "category_stratification": "Random image-level split; per-class distributions are reported rather than manipulated.",
+    "image_storage_strategy": "hardlink",
+    "counts": {
+      "train": 98629,
+      "val": 12328,
+      "test": 12330
+    },
+    "percentages": {
+      "train": 79.9995,
+      "val": 9.9994,
+      "test": 10.0011
+    },
+    "annotation_counts": {
+      "train": 711796,
+      "val": 86566,
+      "test": 87920
+    },
+    "rejected_annotations": 10500
+  },
+  "statistics": {
+    "generated_at_utc": "2026-07-05T06:37:26.175069+00:00",
+    "total_source_images": 123287,
+    "total_usable_images": 123287,
+    "total_annotations": 896782,
+    "accepted_annotations": 886282,
+    "rejected_annotations": 2,
+    "excluded_crowd_annotations": 10498,
+    "crowd_annotations": 10498,
+    "images_with_zero_accepted_objects": 1069,
+    "missing_images": {
+      "train2017": 0,
+      "val2017": 0
+    },
+    "corrupt_or_unreadable_images": {
+      "train2017": 0,
+      "val2017": 0
+    },
+    "invalid_boxes": 2,
+    "rejected_reasons": {
+      "invalid_bbox:bbox has zero or negative area after clipping": 2,
+      "iscrowd_excluded_for_yolov5_compatibility": 10498
+    },
+    "objects_per_image": {
+      "count": 123287,
+      "min": 0,
+      "max": 90,
+      "mean": 7.188770916641658,
+      "median": 4
+    },
+    "class_wise_object_counts": {
+      "person": 268029,
+      "bicycle": 7370,
+      "car": 45451,
+      "motorcycle": 9021,
+      "airplane": 5272,
+      "bus": 6344,
+      "train": 4760,
+      "truck": 10384,
+      "boat": 11000,
+      "traffic light": 13476,
+      "fire hydrant": 1966,
+      "stop sign": 2058,
+      "parking meter": 1343,
+      "bench": 10231,
+      "bird": 10969,
+      "cat": 4968,
+      "dog": 5718,
+      "horse": 6839,
+      "sheep": 9577,
+      "cow": 8386,
+      "elephant": 5736,
+      "bear": 1365,
+      "zebra": 5535,
+      "giraffe": 5360,
+      "backpack": 9085,
+      "umbrella": 11672,
+      "handbag": 12882,
+      "tie": 6700,
+      "suitcase": 6411,
+      "frisbee": 2796,
+      "skis": 6864,
+      "snowboard": 2750,
+      "sports ball": 6559,
+      "kite": 9129,
+      "baseball bat": 3418,
+      "baseball glove": 3895,
+      "skateboard": 5715,
+      "surfboard": 6362,
+      "tennis racket": 5032,
+      "bottle": 25083,
+      "wine glass": 8180,
+      "cup": 21469,
+      "fork": 5689,
+      "knife": 8085,
+      "spoon": 6412,
+      "bowl": 14946,
+      "banana": 9565,
+      "apple": 6012,
+      "sandwich": 4533,
+      "orange": 6587,
+      "broccoli": 7573,
+      "carrot": 8123,
+      "hot dog": 3008,
+      "pizza": 6091,
+      "donut": 7333,
+      "cake": 6606,
+      "chair": 39844,
+      "couch": 6040,
+      "potted plant": 8973,
+      "bed": 4355,
+      "dining table": 16390,
+      "toilet": 4328,
+      "tv": 6091,
+      "laptop": 5191,
+      "mouse": 2367,
+      "remote": 5983,
+      "keyboard": 3007,
+      "cell phone": 6684,
+      "microwave": 1727,
+      "oven": 3477,
+      "toaster": 234,
+      "sink": 5834,
+      "refrigerator": 2760,
+      "book": 25206,
+      "clock": 6587,
+      "vase": 6851,
+      "scissors": 1500,
+      "teddy bear": 4919,
+      "hair drier": 209,
+      "toothbrush": 2002
+    },
+    "class_wise_image_counts": {
+      "person": 66808,
+      "bicycle": 3401,
+      "car": 12786,
+      "motorcycle": 3661,
+      "airplane": 3083,
+      "bus": 4141,
+      "train": 3745,
+      "truck": 6377,
+      "boat": 3146,
+      "traffic light": 4330,
+      "fire hydrant": 1797,
+      "stop sign": 1803,
+      "parking meter": 742,
+      "bench": 5805,
+      "bird": 3362,
+      "cat": 4298,
+      "dog": 4562,
+      "horse": 3069,
+      "sheep": 1594,
+      "cow": 2055,
+      "elephant": 2232,
+      "bear": 1009,
+      "zebra": 2001,
+      "giraffe": 2647,
+      "backpack": 5756,
+      "umbrella": 4142,
+      "handbag": 7133,
+      "tie": 3955,
+      "suitcase": 2507,
+      "frisbee": 2268,
+      "skis": 3202,
+      "snowboard": 1703,
+      "sports ball": 4431,
+      "kite": 2352,
+      "baseball bat": 2603,
+      "baseball glove": 2729,
+      "skateboard": 3603,
+      "surfboard": 3635,
+      "tennis racket": 3561,
+      "bottle": 8880,
+      "wine glass": 2643,
+      "cup": 9579,
+      "fork": 3710,
+      "knife": 4507,
+      "spoon": 3682,
+      "bowl": 7425,
+      "banana": 2346,
+      "apple": 1662,
+      "sandwich": 2463,
+      "orange": 1784,
+      "broccoli": 2010,
+      "carrot": 1764,
+      "hot dog": 1273,
+      "pizza": 3319,
+      "donut": 1585,
+      "cake": 3049,
+      "chair": 13354,
+      "couch": 4618,
+      "potted plant": 4624,
+      "bed": 3831,
+      "dining table": 12338,
+      "toilet": 3502,
+      "tv": 4768,
+      "laptop": 3707,
+      "mouse": 1964,
+      "remote": 3221,
+      "keyboard": 2221,
+      "cell phone": 5017,
+      "microwave": 1601,
+      "oven": 2992,
+      "toaster": 225,
+      "sink": 4865,
+      "refrigerator": 2461,
+      "book": 5562,
+      "clock": 4863,
+      "vase": 3730,
+      "scissors": 975,
+      "teddy bear": 2234,
+      "hair drier": 198,
+      "toothbrush": 1041
+    },
+    "bbox_width_distribution": {
+      "count": 886282,
+      "min": 0.0003593750000000284,
+      "max": 1.0,
+      "mean": 0.17456476788479008,
+      "median": 0.09153124999999998
+    },
+    "bbox_height_distribution": {
+      "count": 886282,
+      "min": 0.0007943925233644275,
+      "max": 1.0,
+      "mean": 0.22510876897584015,
+      "median": 0.13249999999999998
+    },
+    "bbox_area_distribution_pixels": {
+      "count": 886282,
+      "min": 0.8372000000000631,
+      "max": 409600.0,
+      "mean": 20789.706539158982,
+      "median": 3198.9393499999996
+    },
+    "object_size_counts": {
+      "large": 295608,
+      "medium": 311852,
+      "small": 278822
+    },
+    "split_image_counts": {
+      "train": 98629,
+      "val": 12328,
+      "test": 12330
+    },
+    "split_annotation_counts": {
+      "train": 711796,
+      "val": 86566,
+      "test": 87920
+    },
+    "split_class_distribution": {
+      "train": {
+        "person": 215054,
+        "bicycle": 5856,
+        "car": 36512,
+        "motorcycle": 7279,
+        "airplane": 4166,
+        "bus": 5194,
+        "train": 3820,
+        "truck": 8223,
+        "boat": 8792,
+        "traffic light": 10928,
+        "fire hydrant": 1588,
+        "stop sign": 1627,
+        "parking meter": 1103,
+        "bench": 8272,
+        "bird": 8676,
+        "cat": 3948,
+        "dog": 4568,
+        "horse": 5466,
+        "sheep": 7737,
+        "cow": 6896,
+        "elephant": 4574,
+        "bear": 1089,
+        "zebra": 4528,
+        "giraffe": 4323,
+        "backpack": 7222,
+        "umbrella": 9321,
+        "handbag": 10420,
+        "tie": 5354,
+        "suitcase": 5182,
+        "frisbee": 2218,
+        "skis": 5483,
+        "snowboard": 2174,
+        "sports ball": 5231,
+        "kite": 7283,
+        "baseball bat": 2739,
+        "baseball glove": 3150,
+        "skateboard": 4529,
+        "surfboard": 5131,
+        "tennis racket": 3947,
+        "bottle": 20309,
+        "wine glass": 6665,
+        "cup": 17375,
+        "fork": 4678,
+        "knife": 6581,
+        "spoon": 5143,
+        "bowl": 11924,
+        "banana": 7600,
+        "apple": 4953,
+        "sandwich": 3739,
+        "orange": 5350,
+        "broccoli": 6146,
+        "carrot": 6594,
+        "hot dog": 2474,
+        "pizza": 4886,
+        "donut": 5971,
+        "cake": 5345,
+        "chair": 31950,
+        "couch": 4841,
+        "potted plant": 7156,
+        "bed": 3444,
+        "dining table": 13251,
+        "toilet": 3512,
+        "tv": 4841,
+        "laptop": 4152,
+        "mouse": 1892,
+        "remote": 4793,
+        "keyboard": 2354,
+        "cell phone": 5387,
+        "microwave": 1389,
+        "oven": 2788,
+        "toaster": 190,
+        "sink": 4676,
+        "refrigerator": 2177,
+        "book": 20185,
+        "clock": 5241,
+        "vase": 5369,
+        "scissors": 1174,
+        "teddy bear": 3936,
+        "hair drier": 175,
+        "toothbrush": 1587
+      },
+      "val": {
+        "person": 26145,
+        "bicycle": 734,
+        "car": 4477,
+        "motorcycle": 966,
+        "airplane": 555,
+        "bus": 560,
+        "train": 431,
+        "truck": 1023,
+        "boat": 1013,
+        "traffic light": 1245,
+        "fire hydrant": 191,
+        "stop sign": 211,
+        "parking meter": 138,
+        "bench": 987,
+        "bird": 1246,
+        "cat": 525,
+        "dog": 611,
+        "horse": 612,
+        "sheep": 825,
+        "cow": 778,
+        "elephant": 587,
+        "bear": 132,
+        "zebra": 554,
+        "giraffe": 491,
+        "backpack": 925,
+        "umbrella": 1109,
+        "handbag": 1172,
+        "tie": 662,
+        "suitcase": 644,
+        "frisbee": 269,
+        "skis": 681,
+        "snowboard": 285,
+        "sports ball": 630,
+        "kite": 925,
+        "baseball bat": 320,
+        "baseball glove": 392,
+        "skateboard": 588,
+        "surfboard": 596,
+        "tennis racket": 537,
+        "bottle": 2394,
+        "wine glass": 765,
+        "cup": 2096,
+        "fork": 512,
+        "knife": 728,
+        "spoon": 615,
+        "bowl": 1523,
+        "banana": 1001,
+        "apple": 468,
+        "sandwich": 400,
+        "orange": 578,
+        "broccoli": 699,
+        "carrot": 721,
+        "hot dog": 280,
+        "pizza": 640,
+        "donut": 628,
+        "cake": 685,
+        "chair": 3728,
+        "couch": 612,
+        "potted plant": 945,
+        "bed": 483,
+        "dining table": 1596,
+        "toilet": 412,
+        "tv": 620,
+        "laptop": 532,
+        "mouse": 239,
+        "remote": 599,
+        "keyboard": 350,
+        "cell phone": 646,
+        "microwave": 161,
+        "oven": 344,
+        "toaster": 20,
+        "sink": 545,
+        "refrigerator": 282,
+        "book": 2606,
+        "clock": 681,
+        "vase": 721,
+        "scissors": 198,
+        "teddy bear": 497,
+        "hair drier": 16,
+        "toothbrush": 228
+      },
+      "test": {
+        "person": 26830,
+        "bicycle": 780,
+        "car": 4462,
+        "motorcycle": 776,
+        "airplane": 551,
+        "bus": 590,
+        "train": 509,
+        "truck": 1138,
+        "boat": 1195,
+        "traffic light": 1303,
+        "fire hydrant": 187,
+        "stop sign": 220,
+        "parking meter": 102,
+        "bench": 972,
+        "bird": 1047,
+        "cat": 495,
+        "dog": 539,
+        "horse": 761,
+        "sheep": 1015,
+        "cow": 712,
+        "elephant": 575,
+        "bear": 144,
+        "zebra": 453,
+        "giraffe": 546,
+        "backpack": 938,
+        "umbrella": 1242,
+        "handbag": 1290,
+        "tie": 684,
+        "suitcase": 585,
+        "frisbee": 309,
+        "skis": 700,
+        "snowboard": 291,
+        "sports ball": 698,
+        "kite": 921,
+        "baseball bat": 359,
+        "baseball glove": 353,
+        "skateboard": 598,
+        "surfboard": 635,
+        "tennis racket": 548,
+        "bottle": 2380,
+        "wine glass": 750,
+        "cup": 1998,
+        "fork": 499,
+        "knife": 776,
+        "spoon": 654,
+        "bowl": 1499,
+        "banana": 964,
+        "apple": 591,
+        "sandwich": 394,
+        "orange": 659,
+        "broccoli": 728,
+        "carrot": 808,
+        "hot dog": 254,
+        "pizza": 565,
+        "donut": 734,
+        "cake": 576,
+        "chair": 4166,
+        "couch": 587,
+        "potted plant": 872,
+        "bed": 428,
+        "dining table": 1543,
+        "toilet": 404,
+        "tv": 630,
+        "laptop": 507,
+        "mouse": 236,
+        "remote": 591,
+        "keyboard": 303,
+        "cell phone": 651,
+        "microwave": 177,
+        "oven": 345,
+        "toaster": 24,
+        "sink": 613,
+        "refrigerator": 301,
+        "book": 2415,
+        "clock": 665,
+        "vase": 761,
+        "scissors": 128,
+        "teddy bear": 486,
+        "hair drier": 18,
+        "toothbrush": 187
+      }
+    }
+  },
+  "visualizations": {
+    "validation_samples_root": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\outputs\\images\\dataset_validation",
+    "letterbox_examples_root": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\outputs\\images\\dataset_preprocessing"
+  },
+  "validation": {
+    "generated_at_utc": "2026-07-05T08:01:54.259881+00:00",
+    "rules": [
+      {
+        "name": "no_image_source_key_leakage",
+        "status": "PASS",
+        "details": {
+          "overlaps": 0
+        }
+      },
+      {
+        "name": "no_project_image_path_leakage",
+        "status": "PASS",
+        "details": {
+          "overlaps": 0
+        }
+      },
+      {
+        "name": "no_label_path_leakage",
+        "status": "PASS",
+        "details": {
+          "overlaps": 0
+        }
+      },
+      {
+        "name": "manifest_paths_exist",
+        "status": "PASS",
+        "details": {
+          "errors": []
+        }
+      },
+      {
+        "name": "label_format_and_ranges",
+        "status": "PASS",
+        "details": {
+          "error_count": 0,
+          "examples": []
+        }
+      },
+      {
+        "name": "dataset_yaml_paths_resolve",
+        "status": "PASS",
+        "details": {
+          "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\coco_project.yaml",
+          "dataset_root": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo",
+          "name_count": 80,
+          "nc": 80,
+          "paths_ok": {
+            "train": true,
+            "val": true,
+            "test": true
+          },
+          "valid": true
+        }
+      },
+      {
+        "name": "all_usable_images_open",
+        "status": "PASS",
+        "details": {
+          "method": "raw extraction validation opened every source image; processed images are hardlinks",
+          "corrupt_images": {
+            "train2017": 0,
+            "val2017": 0
+          },
+          "missing_images": {
+            "train2017": 0,
+            "val2017": 0
+          }
+        }
+      },
+      {
+        "name": "coco_to_yolo_reversible",
+        "status": "PASS",
+        "details": {
+          "failures": 0
+        }
+      },
+      {
+        "name": "split_ratios_close_to_80_10_10",
+        "status": "PASS",
+        "details": {
+          "train": 0.7999951333068369,
+          "val": 0.09999432219130971,
+          "test": 0.1000105445018534
+        }
+      },
+      {
+        "name": "source_traceability_present",
+        "status": "PASS",
+        "details": {
+          "manifest_rows": 123287,
+          "split_total": 123287
+        }
+      },
+      {
+        "name": "no_placeholder_paths",
+        "status": "PASS",
+        "details": {
+          "files": []
+        }
+      },
+      {
+        "name": "all_labels_belong_to_single_split",
+        "status": "PASS",
+        "details": {}
+      }
+    ],
+    "excluded_records": {
+      "non_accepted_annotations": 10500,
+      "reasons": {
+        "iscrowd_excluded_for_yolov5_compatibility": 10498,
+        "invalid_bbox:bbox has zero or negative area after clipping": 2
+      }
+    },
+    "final_readiness": true
+  },
+  "dataset_loading_smoke": {
+    "generated_at_utc": "2026-07-05T08:03:37.668464+00:00",
+    "dataset_yaml": {
+      "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\coco_project.yaml",
+      "dataset_root": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo",
+      "name_count": 80,
+      "nc": 80,
+      "paths_ok": {
+        "train": true,
+        "val": true,
+        "test": true
+      },
+      "valid": true
+    },
+    "smoke_image_list": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\artifacts\\coco_train_smoke_images.txt",
+    "batch_image_tensor_shape": [
+      2,
+      3,
+      640,
+      640
+    ],
+    "batch_label_tensor_shape": [
+      7,
+      6
+    ],
+    "batch_paths": [
+      "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\train\\train2017_000000248958.jpg",
+      "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\train\\train2017_000000359337.jpg"
+    ],
+    "dataset_length": 4,
+    "status": "passed"
+  },
+  "dataset_yaml": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\coco_project.yaml",
+  "colab_yaml_template": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\configs\\coco_project_colab.yaml",
+  "ready_for_training": true,
+  "duration_note": "Approximate wall-clock duration from pre-download check to finalization; the phase ran in multiple resumable tool executions.",
+  "storage": {
+    "drive_free_gib_after": 341.43,
+    "drive_used_gib_after": 74.32,
+    "approx_physical_space_used_this_phase_gib": 39.69,
+    "archives_mib": 19460.06,
+    "annotation_json_mib": 795.76,
+    "yolo_labels_mib": 40.21,
+    "interim_manifests_mib": 495.45,
+    "split_manifests_mib": 69.51,
+    "image_storage_strategy": "hardlink; processed images are linked to raw images and do not intentionally duplicate image bytes"
+  }
+}

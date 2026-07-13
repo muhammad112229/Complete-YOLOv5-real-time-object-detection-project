@@ -1,0 +1,95 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/*
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local environment, secrets, and credentials
+.env
+.env.*
+*.pem
+*.key
+*.crt
+secrets.*
+credentials.*
+kaggle.json
+
+# Large local COCO data
+data/raw/
+data/interim/
+data/processed/coco_yolo/images/
+data/processed/coco_yolo/labels/
+data/processed/coco_yolo/*.cache
+data/splits/*.cache
+
+# Keep required dataset metadata and deterministic manifests
+!data/README.md
+!data/splits/
+!data/splits/*.txt
+!data/splits/*.csv
+!data/splits/*.json
+!data/processed/
+!data/processed/coco_yolo/
+!data/processed/coco_yolo/*.yaml
+!data/processed/coco_yolo/*.json
+!data/processed/coco_yolo/*.txt
+!data/processed/coco_yolo/annotations/
+!data/processed/coco_yolo/annotations/*.json
+
+# Model artifacts
+models/pretrained/
+models/trained/
+models/optimized/
+*.onnx
+*.torchscript
+*.engine
+*.mlmodel
+*.tflite
+*.pb
+!models/yolov5s_coco20k_best.pt
+
+# Large training artifacts and archives
+*.zip
+*.tar
+*.tar.gz
+artifacts/trained_coco20k_yolov5s/weights/*.pt
+artifacts/trained_coco20k_yolov5s/events.out.tfevents.*
+results/yolov5s/
+runs/
+wandb/
+
+# Local uploads and transient runtime logs
+uploads/
+outputs/flask/flask_server_*.log
+*.log
+
+# Keep final evidence, metrics, reports, configs, source, and tests tracked
+!artifacts/*.json
+!artifacts/*.md
+!results/**/*.json
+!results/**/*.csv
+!results/**/*.md
+!results/**/*.png
+!reports/**
+!configs/**
+!src/**
+!deployment/**
+!templates/**
+!static/**
+!tests/**

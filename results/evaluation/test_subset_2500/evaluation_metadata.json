@@ -1,0 +1,606 @@
+{
+  "generated_at_utc": "2026-07-13T13:45:19.977464+00:00",
+  "status": "completed",
+  "command": [
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\.venv\\Scripts\\python.exe",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\val.py",
+    "--weights",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\models\\yolov5s_coco20k_best.pt",
+    "--data",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\evaluation\\test_subset_2500\\evaluation_dataset.yaml",
+    "--task",
+    "test",
+    "--imgsz",
+    "640",
+    "--batch-size",
+    "16",
+    "--conf-thres",
+    "0.001",
+    "--iou-thres",
+    "0.6",
+    "--device",
+    "cpu",
+    "--workers",
+    "4",
+    "--project",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\evaluation",
+    "--name",
+    "test_subset_2500",
+    "--exist-ok",
+    "--verbose",
+    "--save-json",
+    "--save-txt",
+    "--save-conf"
+  ],
+  "config": {
+    "model_path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\models\\yolov5s_coco20k_best.pt",
+    "dataset_yaml": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\coco_project.yaml",
+    "test_manifest": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\splits\\test_subset_2500_seed42.txt",
+    "coco_annotation_json": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\annotations\\instances_test_subset_2500_seed42.json",
+    "image_size": 640,
+    "batch_size": 16,
+    "confidence_threshold": 0.001,
+    "iou_threshold": 0.6,
+    "device": "auto",
+    "workers": 4,
+    "output_directory": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\results\\evaluation\\test_subset_2500",
+    "save_json": true,
+    "save_txt": true,
+    "save_confusion_matrix": true,
+    "save_plots": true,
+    "save_sample_predictions": true,
+    "maximum_sample_predictions": 20
+  },
+  "manifest": {
+    "available": true,
+    "rows": 2500,
+    "image_exists": 2500,
+    "label_exists": 2500,
+    "usable_image_label_pairs": 2500,
+    "instances": 17751,
+    "missing_images_preview": [],
+    "missing_labels_preview": []
+  },
+  "exact_2500_test_subset_manifest": {
+    "available": true,
+    "path": "data/splits/test_subset_2500_seed42.txt",
+    "candidate_files": [
+      {
+        "path": "data/splits/test_images.txt",
+        "row_count": 12330
+      },
+      {
+        "path": "data/splits/test_manifest.csv",
+        "row_count": 12330
+      },
+      {
+        "path": "data/splits/test_subset_2500_seed42.txt",
+        "row_count": 2500
+      }
+    ]
+  },
+  "metrics_summary": {
+    "class_name": "all",
+    "images": 2500,
+    "instances": 17751,
+    "precision": 0.68,
+    "recall": 0.553,
+    "mAP@0.5": 0.61,
+    "mAP@0.5:0.95": 0.38,
+    "preprocess_time_ms_per_image": 4.4,
+    "inference_time_ms_per_image": 363.1,
+    "nms_time_ms_per_image": 15.1
+  },
+  "per_class_count": 80,
+  "coco_eval": {
+    "generated_at_utc": "2026-07-13T13:43:45.457515+00:00",
+    "status": "completed",
+    "annotation_json": "data/processed/coco_yolo/annotations/instances_test_subset_2500_seed42.json",
+    "yolov5_prediction_json": "results/evaluation/test_subset_2500/predictions.json",
+    "converted_prediction_json": "results/evaluation/test_subset_2500/coco_eval/coco_predictions.json",
+    "summary_json": "results/evaluation/test_subset_2500/coco_eval/coco_eval_summary.json",
+    "stdout_log": "results/evaluation/test_subset_2500/coco_eval/coco_eval_stdout.txt",
+    "conversion": {
+      "source_prediction_path": "results/evaluation/test_subset_2500/predictions.json",
+      "converted_prediction_path": "results/evaluation/test_subset_2500/coco_eval/coco_predictions.json",
+      "source_prediction_count": 508432,
+      "converted_prediction_count": 508380,
+      "dropped_unknown_image_count": 0,
+      "dropped_unknown_category_count": 0,
+      "dropped_invalid_bbox_count": 52
+    },
+    "image_count": 2500,
+    "category_count": 80,
+    "annotation_count": 17751,
+    "metrics": {
+      "AP@[0.50:0.95]": 0.378696,
+      "AP@0.50": 0.607692,
+      "AP@0.75": 0.404071,
+      "AP small": 0.147706,
+      "AP medium": 0.376504,
+      "AP large": 0.523755,
+      "AR maxDets=1": 0.302949,
+      "AR maxDets=10": 0.525675,
+      "AR maxDets=100": 0.573531,
+      "AR small": 0.313309,
+      "AR medium": 0.592047,
+      "AR large": 0.700708
+    }
+  },
+  "sample_prediction_summary": {
+    "generated_at_utc": "2026-07-13T13:43:45.453512+00:00",
+    "model_path": "models/yolov5s_coco20k_best.pt",
+    "output_directory": "results/evaluation/test_subset_2500/sample_predictions",
+    "requested_max_images": 20,
+    "generated_count": 20,
+    "accuracy_claim": "none",
+    "accuracy_note": "These are unlabeled visual inference examples and are not test-set accuracy metrics.",
+    "samples": [
+      {
+        "source_path": "external/yolov5/data/images/bus.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/01_bus_predicted.jpg",
+        "image_dimensions": {
+          "width": 810,
+          "height": 1080
+        },
+        "number_of_detections": 5,
+        "class_counts": {
+          "bus": 1,
+          "person": 4
+        },
+        "confidence_statistics": {
+          "min": 0.40709683299064636,
+          "max": 0.8497413992881775,
+          "mean": 0.7372733891010285
+        },
+        "inference_time_ms": 658.0001999391243
+      },
+      {
+        "source_path": "external/yolov5/data/images/zidane.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/02_zidane_predicted.jpg",
+        "image_dimensions": {
+          "width": 1280,
+          "height": 720
+        },
+        "number_of_detections": 4,
+        "class_counts": {
+          "person": 2,
+          "tie": 2
+        },
+        "confidence_statistics": {
+          "min": 0.2685825824737549,
+          "max": 0.7721777558326721,
+          "mean": 0.5326864123344421
+        },
+        "inference_time_ms": 336.83300006669015
+      },
+      {
+        "source_path": "outputs/images/custom_smoke_test/bus.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/03_bus_predicted.jpg",
+        "image_dimensions": {
+          "width": 810,
+          "height": 1080
+        },
+        "number_of_detections": 4,
+        "class_counts": {
+          "bus": 1,
+          "person": 3
+        },
+        "confidence_statistics": {
+          "min": 0.44842103123664856,
+          "max": 0.8255659341812134,
+          "mean": 0.7174021974205971
+        },
+        "inference_time_ms": 377.58349999785423
+      },
+      {
+        "source_path": "outputs/images/dataset_preprocessing/letterbox_train2017_000000299962.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/04_letterbox_train2017_000000299962_predicted.jpg",
+        "image_dimensions": {
+          "width": 1280,
+          "height": 640
+        },
+        "number_of_detections": 9,
+        "class_counts": {
+          "car": 1,
+          "kite": 2,
+          "person": 6
+        },
+        "confidence_statistics": {
+          "min": 0.36077681183815,
+          "max": 0.8138681650161743,
+          "mean": 0.5270891057120429
+        },
+        "inference_time_ms": 277.611400000751
+      },
+      {
+        "source_path": "outputs/images/dataset_preprocessing/letterbox_train2017_000000497464.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/05_letterbox_train2017_000000497464_predicted.jpg",
+        "image_dimensions": {
+          "width": 1280,
+          "height": 640
+        },
+        "number_of_detections": 10,
+        "class_counts": {
+          "person": 6,
+          "surfboard": 4
+        },
+        "confidence_statistics": {
+          "min": 0.2587011754512787,
+          "max": 0.9063963294029236,
+          "mean": 0.6859922200441361
+        },
+        "inference_time_ms": 235.73970003053546
+      },
+      {
+        "source_path": "outputs/images/dataset_preprocessing/letterbox_train2017_000000522021.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/06_letterbox_train2017_000000522021_predicted.jpg",
+        "image_dimensions": {
+          "width": 1280,
+          "height": 640
+        },
+        "number_of_detections": 6,
+        "class_counts": {
+          "zebra": 6
+        },
+        "confidence_statistics": {
+          "min": 0.5187960267066956,
+          "max": 0.8555688858032227,
+          "mean": 0.7281187276045481
+        },
+        "inference_time_ms": 250.6091999821365
+      },
+      {
+        "source_path": "outputs/images/dataset_validation/test/train2017_000000247338.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/07_train2017_000000247338_predicted.jpg",
+        "image_dimensions": {
+          "width": 640,
+          "height": 426
+        },
+        "number_of_detections": 2,
+        "class_counts": {
+          "giraffe": 2
+        },
+        "confidence_statistics": {
+          "min": 0.49153921008110046,
+          "max": 0.9186556339263916,
+          "mean": 0.705097422003746
+        },
+        "inference_time_ms": 372.4570000777021
+      },
+      {
+        "source_path": "outputs/images/dataset_validation/test/train2017_000000336762.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/08_train2017_000000336762_predicted.jpg",
+        "image_dimensions": {
+          "width": 500,
+          "height": 375
+        },
+        "number_of_detections": 4,
+        "class_counts": {
+          "laptop": 1,
+          "refrigerator": 1,
+          "sandwich": 2
+        },
+        "confidence_statistics": {
+          "min": 0.2559908926486969,
+          "max": 0.7126886248588562,
+          "mean": 0.39528927206993103
+        },
+        "inference_time_ms": 398.21110002230853
+      },
+      {
+        "source_path": "outputs/images/dataset_validation/test/train2017_000000365358.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/09_train2017_000000365358_predicted.jpg",
+        "image_dimensions": {
+          "width": 640,
+          "height": 360
+        },
+        "number_of_detections": 1,
+        "class_counts": {
+          "airplane": 1
+        },
+        "confidence_statistics": {
+          "min": 0.5039849877357483,
+          "max": 0.5039849877357483,
+          "mean": 0.5039849877357483
+        },
+        "inference_time_ms": 292.3391000367701
+      },
+      {
+        "source_path": "outputs/images/dataset_validation/train/train2017_000000183827.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/10_train2017_000000183827_predicted.jpg",
+        "image_dimensions": {
+          "width": 640,
+          "height": 427
+        },
+        "number_of_detections": 2,
+        "class_counts": {
+          "bed": 1,
+          "cake": 1
+        },
+        "confidence_statistics": {
+          "min": 0.2804301083087921,
+          "max": 0.46172720193862915,
+          "mean": 0.37107865512371063
+        },
+        "inference_time_ms": 344.601699966006
+      },
+      {
+        "source_path": "outputs/images/dataset_validation/train/train2017_000000184184.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/11_train2017_000000184184_predicted.jpg",
+        "image_dimensions": {
+          "width": 612,
+          "height": 612
+        },
+        "number_of_detections": 4,
+        "class_counts": {
+          "bowl": 1,
+          "cup": 2,
+          "spoon": 1
+        },
+        "confidence_statistics": {
+          "min": 0.38808953762054443,
+          "max": 0.8399828672409058,
+          "mean": 0.5471732914447784
+        },
+        "inference_time_ms": 489.2960999859497
+      },
+      {
+        "source_path": "outputs/images/dataset_validation/train/train2017_000000408930.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/12_train2017_000000408930_predicted.jpg",
+        "image_dimensions": {
+          "width": 640,
+          "height": 425
+        },
+        "number_of_detections": 1,
+        "class_counts": {
+          "truck": 1
+        },
+        "confidence_statistics": {
+          "min": 0.5066991448402405,
+          "max": 0.5066991448402405,
+          "mean": 0.5066991448402405
+        },
+        "inference_time_ms": 365.47359998803586
+      },
+      {
+        "source_path": "outputs/images/dataset_validation/train/train2017_000000440390.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/13_train2017_000000440390_predicted.jpg",
+        "image_dimensions": {
+          "width": 640,
+          "height": 480
+        },
+        "number_of_detections": 6,
+        "class_counts": {
+          "bus": 1,
+          "car": 1,
+          "person": 4
+        },
+        "confidence_statistics": {
+          "min": 0.3387118875980377,
+          "max": 0.6386120319366455,
+          "mean": 0.492803434530894
+        },
+        "inference_time_ms": 344.4964000955224
+      },
+      {
+        "source_path": "outputs/images/dataset_validation/train/train2017_000000456569.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/14_train2017_000000456569_predicted.jpg",
+        "image_dimensions": {
+          "width": 640,
+          "height": 424
+        },
+        "number_of_detections": 3,
+        "class_counts": {
+          "giraffe": 3
+        },
+        "confidence_statistics": {
+          "min": 0.7817181348800659,
+          "max": 0.8896968364715576,
+          "mean": 0.8492571512858073
+        },
+        "inference_time_ms": 320.7870000042021
+      },
+      {
+        "source_path": "outputs/images/dataset_validation/val/train2017_000000166533.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/15_train2017_000000166533_predicted.jpg",
+        "image_dimensions": {
+          "width": 640,
+          "height": 359
+        },
+        "number_of_detections": 5,
+        "class_counts": {
+          "bottle": 1,
+          "cup": 1,
+          "oven": 1,
+          "sink": 1,
+          "vase": 1
+        },
+        "confidence_statistics": {
+          "min": 0.25528329610824585,
+          "max": 0.7255843281745911,
+          "mean": 0.5279972195625305
+        },
+        "inference_time_ms": 434.547399985604
+      },
+      {
+        "source_path": "outputs/images/dataset_validation/val/train2017_000000538235.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/16_train2017_000000538235_predicted.jpg",
+        "image_dimensions": {
+          "width": 500,
+          "height": 334
+        },
+        "number_of_detections": 3,
+        "class_counts": {
+          "bed": 1,
+          "person": 1,
+          "tv": 1
+        },
+        "confidence_statistics": {
+          "min": 0.3058498799800873,
+          "max": 0.8414707183837891,
+          "mean": 0.5712166527907053
+        },
+        "inference_time_ms": 321.4909000089392
+      },
+      {
+        "source_path": "outputs/images/dataset_validation/val/train2017_000000561670.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/17_train2017_000000561670_predicted.jpg",
+        "image_dimensions": {
+          "width": 500,
+          "height": 375
+        },
+        "number_of_detections": 8,
+        "class_counts": {
+          "bicycle": 1,
+          "chair": 1,
+          "cow": 1,
+          "handbag": 1,
+          "person": 2,
+          "sheep": 1,
+          "truck": 1
+        },
+        "confidence_statistics": {
+          "min": 0.25652435421943665,
+          "max": 0.7917623519897461,
+          "mean": 0.47869428247213364
+        },
+        "inference_time_ms": 361.72639997676015
+      },
+      {
+        "source_path": "outputs/images/smoke_test/bus.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/18_bus_predicted.jpg",
+        "image_dimensions": {
+          "width": 810,
+          "height": 1080
+        },
+        "number_of_detections": 4,
+        "class_counts": {
+          "bus": 1,
+          "person": 3
+        },
+        "confidence_statistics": {
+          "min": 0.523354172706604,
+          "max": 0.806721568107605,
+          "mean": 0.7062356770038605
+        },
+        "inference_time_ms": 359.58409996237606
+      },
+      {
+        "source_path": "outputs/images/training_smoke_test/bus.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/19_bus_predicted.jpg",
+        "image_dimensions": {
+          "width": 810,
+          "height": 1080
+        },
+        "number_of_detections": 3,
+        "class_counts": {
+          "bus": 1,
+          "person": 2
+        },
+        "confidence_statistics": {
+          "min": 0.7764046788215637,
+          "max": 0.8431188464164734,
+          "mean": 0.8043030103047689
+        },
+        "inference_time_ms": 362.19939996954054
+      },
+      {
+        "source_path": "data/smoke/coco_yolov5/images/val/train2017_000000012681.jpg",
+        "output_path": "results/evaluation/test_subset_2500/sample_predictions/20_train2017_000000012681_predicted.jpg",
+        "image_dimensions": {
+          "width": 612,
+          "height": 612
+        },
+        "number_of_detections": 6,
+        "class_counts": {
+          "bowl": 1,
+          "chair": 1,
+          "cup": 1,
+          "hot dog": 1,
+          "person": 2
+        },
+        "confidence_statistics": {
+          "min": 0.2777157425880432,
+          "max": 0.7391801476478577,
+          "mean": 0.5394190649191538
+        },
+        "inference_time_ms": 464.02740001212806
+      }
+    ]
+  },
+  "artifacts": {
+    "metrics_summary.json": {
+      "path": "results/evaluation/test_subset_2500/metrics_summary.json",
+      "generated": true,
+      "reason": null
+    },
+    "per_class_metrics.csv": {
+      "path": "results/evaluation/test_subset_2500/per_class_metrics.csv",
+      "generated": true,
+      "reason": null
+    },
+    "evaluation_metadata.json": {
+      "path": "results/evaluation/test_subset_2500/evaluation_metadata.json",
+      "generated": false,
+      "reason": "YOLOv5 did not generate this artifact or post-processing could not create it."
+    },
+    "coco_eval": {
+      "path": "results/evaluation/test_subset_2500/coco_eval",
+      "generated": true,
+      "reason": null
+    },
+    "confusion_matrix.png": {
+      "path": "results/evaluation/test_subset_2500/confusion_matrix.png",
+      "generated": true,
+      "reason": null
+    },
+    "confusion_matrix_normalized.png": {
+      "path": "results/evaluation/test_subset_2500/confusion_matrix_normalized.png",
+      "generated": true,
+      "reason": "Copied from YOLOv5 v7.0 confusion_matrix.png, which is normalized by default."
+    },
+    "PR_curve.png": {
+      "path": "results/evaluation/test_subset_2500/PR_curve.png",
+      "generated": true,
+      "reason": null
+    },
+    "P_curve.png": {
+      "path": "results/evaluation/test_subset_2500/P_curve.png",
+      "generated": true,
+      "reason": null
+    },
+    "R_curve.png": {
+      "path": "results/evaluation/test_subset_2500/R_curve.png",
+      "generated": true,
+      "reason": null
+    },
+    "F1_curve.png": {
+      "path": "results/evaluation/test_subset_2500/F1_curve.png",
+      "generated": true,
+      "reason": null
+    },
+    "predictions.json": {
+      "path": "results/evaluation/test_subset_2500/predictions.json",
+      "generated": true,
+      "reason": null
+    },
+    "labels": {
+      "path": "results/evaluation/test_subset_2500/labels",
+      "generated": true,
+      "reason": null
+    },
+    "sample_predictions": {
+      "path": "results/evaluation/test_subset_2500/sample_predictions",
+      "generated": true,
+      "reason": null
+    }
+  },
+  "stdout_log": "results/evaluation/test_subset_2500/yolov5_val_stdout.log",
+  "stderr_log": "results/evaluation/test_subset_2500/yolov5_val_stderr.log",
+  "notes": [
+    "YOLOv5 label-based metrics are genuine only for the configured YOLO test split.",
+    "Official COCOeval metrics are recorded separately under coco_eval when pycocotools completes.",
+    "YOLOv5 v7.0 writes the normalized confusion matrix as confusion_matrix.png; confusion_matrix_normalized.png is a copy for artifact naming completeness."
+  ]
+}

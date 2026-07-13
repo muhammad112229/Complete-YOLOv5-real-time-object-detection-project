@@ -1,0 +1,53 @@
+{
+  "generated_at_utc": "2026-07-04T17:29:11.253494+00:00",
+  "workspace": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code",
+  "python_executable_requirement": ".venv\\Scripts\\python.exe",
+  "disk": {
+    "total_bytes": 446411304960,
+    "used_bytes": 79798784000,
+    "free_bytes": 366612520960,
+    "free_gib": 341.43
+  },
+  "estimates": {
+    "archive_bytes": 20405354669,
+    "archive_gib": 19.0,
+    "estimated_extracted_bytes": 25769803776,
+    "estimated_processed_bytes": 2147483648,
+    "safe_required_bytes": 80530636800,
+    "safe_required_gib": 75.0
+  },
+  "endpoints": [
+    {
+      "name": "train2017",
+      "url": "http://images.cocodataset.org/zips/train2017.zip",
+      "reachable": true,
+      "status": 200,
+      "content_length": 19336861798,
+      "accept_ranges": "bytes",
+      "final_url": "http://images.cocodataset.org/zips/train2017.zip",
+      "error": null
+    },
+    {
+      "name": "val2017",
+      "url": "http://images.cocodataset.org/zips/val2017.zip",
+      "reachable": true,
+      "status": 200,
+      "content_length": 815585330,
+      "accept_ranges": "bytes",
+      "final_url": "http://images.cocodataset.org/zips/val2017.zip",
+      "error": null
+    },
+    {
+      "name": "annotations_trainval2017",
+      "url": "http://images.cocodataset.org/annotations/annotations_trainval2017.zip",
+      "reachable": true,
+      "status": 200,
+      "content_length": 252907541,
+      "accept_ranges": "bytes",
+      "final_url": "http://images.cocodataset.org/annotations/annotations_trainval2017.zip",
+      "error": null
+    }
+  ],
+  "errors": [],
+  "ready": true
+}

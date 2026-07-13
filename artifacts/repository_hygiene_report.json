@@ -1,0 +1,407 @@
+{
+  "generated_at_utc": "2026-07-13T17:12:20.520940+00:00",
+  "workspace_root": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code",
+  "secret_scan": {
+    "status": "passed",
+    "hits": [],
+    "total_hits": 0
+  },
+  "absolute_path_scan": {
+    "status": "review_required",
+    "hits": [
+      {
+        "path": "artifacts/coco_dataset_loading_smoke.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\processed\\\\coco_yolo\\\\coco_project.yaml"
+      },
+      {
+        "path": "artifacts/coco_dataset_loading_smoke.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\processed\\\\coco_yolo"
+      },
+      {
+        "path": "artifacts/coco_dataset_loading_smoke.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\artifacts\\\\coco_train_smoke_images.txt"
+      },
+      {
+        "path": "artifacts/coco_dataset_loading_smoke.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\processed\\\\coco_yolo\\\\images\\\\train\\\\train2017_000000248958.jpg"
+      },
+      {
+        "path": "artifacts/coco_dataset_loading_smoke.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\processed\\\\coco_yolo\\\\images\\\\train\\\\train2017_000000359337.jpg"
+      },
+      {
+        "path": "artifacts/coco_dataset_validation.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\processed\\\\coco_yolo\\\\coco_project.yaml"
+      },
+      {
+        "path": "artifacts/coco_dataset_validation.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\processed\\\\coco_yolo"
+      },
+      {
+        "path": "artifacts/coco_dataset_validation.md",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\processed\\\\coco_yolo\\\\coco_project.yaml"
+      },
+      {
+        "path": "artifacts/coco_dataset_validation.md",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\processed\\\\coco_yolo"
+      },
+      {
+        "path": "artifacts/coco_download_manifest.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\archives"
+      },
+      {
+        "path": "artifacts/coco_download_manifest.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\coco2017"
+      },
+      {
+        "path": "artifacts/coco_download_manifest.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\archives\\\\train2017.zip"
+      },
+      {
+        "path": "artifacts/coco_download_manifest.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\archives\\\\val2017.zip"
+      },
+      {
+        "path": "artifacts/coco_download_manifest.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\archives\\\\annotations_trainval2017.zip"
+      },
+      {
+        "path": "artifacts/coco_download_manifest.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\coco2017\\\\train2017"
+      },
+      {
+        "path": "artifacts/coco_download_manifest.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\archives\\\\val2017.zip"
+      },
+      {
+        "path": "artifacts/coco_download_manifest.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\coco2017"
+      },
+      {
+        "path": "artifacts/coco_download_manifest.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\archives\\\\annotations_trainval2017.zip"
+      },
+      {
+        "path": "artifacts/coco_download_manifest.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\coco2017"
+      },
+      {
+        "path": "artifacts/coco_extraction_validation.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\archives\\\\train2017.zip"
+      },
+      {
+        "path": "artifacts/coco_extraction_validation.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\archives\\\\val2017.zip"
+      },
+      {
+        "path": "artifacts/coco_extraction_validation.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\archives\\\\annotations_trainval2017.zip"
+      },
+      {
+        "path": "artifacts/coco_extraction_validation.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\coco2017"
+      },
+      {
+        "path": "artifacts/coco_extraction_validation.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\coco2017\\\\annotations\\\\instances_train2017.json"
+      },
+      {
+        "path": "artifacts/coco_extraction_validation.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\coco2017\\\\annotations\\\\instances_val2017.json"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\archives\\\\train2017.zip"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\archives\\\\val2017.zip"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\archives\\\\annotations_trainval2017.zip"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\coco2017"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\coco2017\\\\annotations\\\\instances_train2017.json"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\raw\\\\coco2017\\\\annotations\\\\instances_val2017.json"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\outputs\\\\images\\\\dataset_validation"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\outputs\\\\images\\\\dataset_preprocessing"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\processed\\\\coco_yolo\\\\coco_project.yaml"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\processed\\\\coco_yolo"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\processed\\\\coco_yolo\\\\coco_project.yaml"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\processed\\\\coco_yolo"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\artifacts\\\\coco_train_smoke_images.txt"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\processed\\\\coco_yolo\\\\images\\\\train\\\\train2017_000000248958.jpg"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\processed\\\\coco_yolo\\\\images\\\\train\\\\train2017_000000359337.jpg"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\data\\\\processed\\\\coco_yolo\\\\coco_project.yaml"
+      },
+      {
+        "path": "artifacts/coco_preprocessing_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\configs\\\\coco_project_colab.yaml"
+      },
+      {
+        "path": "artifacts/coco_pre_download_check.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code"
+      },
+      {
+        "path": "artifacts/coco_pre_download_check.md",
+        "value_preview": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code`"
+      },
+      {
+        "path": "artifacts/coco_train_smoke_images.txt",
+        "value_preview": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\train\\train2017_000000248958.jpg"
+      },
+      {
+        "path": "artifacts/coco_train_smoke_images.txt",
+        "value_preview": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\train\\train2017_000000506641.jpg"
+      },
+      {
+        "path": "artifacts/coco_train_smoke_images.txt",
+        "value_preview": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\train\\train2017_000000359337.jpg"
+      },
+      {
+        "path": "artifacts/coco_train_smoke_images.txt",
+        "value_preview": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\train\\train2017_000000473783.jpg"
+      },
+      {
+        "path": "artifacts/colab_bundle_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\transfer\\\\yolov5_colab_bundle.zip"
+      },
+      {
+        "path": "artifacts/colab_bundle_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\transfer\\\\yolov5_colab_bundle.sha256"
+      },
+      {
+        "path": "artifacts/colab_bundle_report.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\transfer\\\\yolov5_colab_bundle_contents.txt"
+      },
+      {
+        "path": "artifacts/colab_reference_checksums.json",
+        "value_preview": "/content/datasets/coco2017/coco_yolo_exact_split"
+      },
+      {
+        "path": "artifacts/colab_training_transfer_manifest.json",
+        "value_preview": "/content/datasets"
+      },
+      {
+        "path": "artifacts/colab_training_transfer_manifest.json",
+        "value_preview": "/content/datasets/coco2017"
+      },
+      {
+        "path": "artifacts/colab_training_transfer_manifest.json",
+        "value_preview": "/content/drive/MyDrive/YOLOv5_COCO_Project/datasets"
+      },
+      {
+        "path": "artifacts/colab_training_transfer_manifest.json",
+        "value_preview": "/content/drive/MyDrive/YOLOv5_COCO_Project/datasets/coco2017"
+      },
+      {
+        "path": "artifacts/colab_training_transfer_manifest.md",
+        "value_preview": "/content/datasets/coco2017`; fastest setup, lost when the Colab runtime is"
+      },
+      {
+        "path": "artifacts/dependency_installation_report.md",
+        "value_preview": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code`"
+      },
+      {
+        "path": "artifacts/dependency_installation_report.md",
+        "value_preview": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\.venv\\Scripts\\python.exe`"
+      },
+      {
+        "path": "artifacts/dependency_installation_report.md",
+        "value_preview": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\.venv`"
+      },
+      {
+        "path": "artifacts/environment_audit.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code"
+      },
+      {
+        "path": "artifacts/environment_audit.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\.venv\\\\Scripts\\\\python.exe"
+      },
+      {
+        "path": "artifacts/environment_audit.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\.venv\\\\Lib\\\\site-packages\\\\pip (python 3.11)"
+      },
+      {
+        "path": "artifacts/environment_audit.md",
+        "value_preview": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code`"
+      },
+      {
+        "path": "artifacts/environment_audit.md",
+        "value_preview": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\.venv\\Scripts\\python.exe`)"
+      },
+      {
+        "path": "artifacts/environment_audit.md",
+        "value_preview": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\.venv\\Lib\\site-packages\\pip (python 3.11)"
+      },
+      {
+        "path": "artifacts/inference_smoke_test.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\models\\\\pretrained\\\\yolov5s.pt"
+      },
+      {
+        "path": "artifacts/inference_smoke_test.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\external\\\\yolov5\\\\data\\\\images\\\\bus.jpg"
+      },
+      {
+        "path": "artifacts/inference_smoke_test.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\.venv\\\\Scripts\\\\python.exe external/yolov5/detect.py --weights G:\\\\intership projects\\\\Real-Time Object Detec"
+      },
+      {
+        "path": "artifacts/inference_smoke_test.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\outputs\\\\images\\\\smoke_test\\\\bus.jpg"
+      },
+      {
+        "path": "artifacts/inference_smoke_test.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\.venv\\\\Scripts\\\\python.exe -m src.detect_image --weights G:\\\\intership projects\\\\Real-Time Object Detection u"
+      },
+      {
+        "path": "artifacts/inference_smoke_test.json",
+        "value_preview": "G:\\\\intership projects\\\\Real-Time Object Detection using YOLOv5\\\\code\\\\outputs\\\\images\\\\custom_smoke_test\\\\bus.jpg"
+      },
+      {
+        "path": "artifacts/inference_smoke_test.md",
+        "value_preview": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\models\\pretrained\\yolov5s.pt` (14.12 MB)"
+      },
+      {
+        "path": "artifacts/inference_smoke_test.md",
+        "value_preview": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\external\\yolov5\\data\\images\\bus.jpg`"
+      },
+      {
+        "path": "artifacts/inference_smoke_test.md",
+        "value_preview": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\outputs\\images\\smoke_test\\bus.jpg`"
+      },
+      {
+        "path": "artifacts/inference_smoke_test.md",
+        "value_preview": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\outputs\\images\\custom_smoke_test\\bus.jpg`"
+      },
+      {
+        "path": "artifacts/initial_setup_report.md",
+        "value_preview": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code`"
+      },
+      {
+        "path": "artifacts/phase5a_colab_transfer_report.md",
+        "value_preview": "/content/datasets/coco2017`. It is faster but is"
+      },
+      {
+        "path": "artifacts/phase5a_colab_transfer_report.md",
+        "value_preview": "/content/drive/MyDrive/YOLOv5_COCO_Project/datasets/coco2017`. It persists"
+      },
+      {
+        "path": "artifacts/phase5a_colab_transfer_report.md",
+        "value_preview": "/content/drive/MyDrive/YOLOv5_COCO_Project/runs/`."
+      }
+    ],
+    "total_hits": 27532,
+    "note": "Many absolute paths in generated artifacts/manifests are expected for local reproducibility; source/config paths should remain relative where practical."
+  },
+  "todo_scan": {
+    "status": "review_required",
+    "paths": [
+      "external/yolov5/.github/workflows/stale.yml",
+      "external/yolov5/models/yolo.py",
+      "external/yolov5/utils/augmentations.py",
+      "external/yolov5/utils/loggers/__init__.py",
+      "external/yolov5/utils/loggers/wandb/log_dataset.py",
+      "external/yolov5/utils/loggers/wandb/wandb_utils.py",
+      "external/yolov5/utils/segment/dataloaders.py"
+    ],
+    "total_paths": 7
+  },
+  "temporary_debug_files": {
+    "log_files": [
+      "artifacts/train_models_wrapper_stderr.log",
+      "artifacts/train_models_wrapper_stderr_failed_font_download_20260706_132441.log",
+      "artifacts/train_models_wrapper_stderr_failed_numpy_trapz_20260706_133003.log",
+      "artifacts/train_models_wrapper_stdout.log",
+      "artifacts/train_models_wrapper_stdout_failed_font_download_20260706_132441.log",
+      "artifacts/train_models_wrapper_stdout_failed_numpy_trapz_20260706_133003.log",
+      "artifacts/yolov5s_smoke_training_console.log",
+      "artifacts/yolov5s_smoke_training_console_failed_font_download_20260706_132441.log",
+      "artifacts/yolov5s_smoke_training_console_failed_numpy_trapz_20260706_133003.log",
+      "outputs/flask/flask_server_stderr.log",
+      "outputs/flask/flask_server_stdout.log",
+      "results/evaluation/test_subset_2500/yolov5_val_stderr.log",
+      "results/evaluation/test_subset_2500/yolov5_val_stdout.log"
+    ],
+    "total_log_files": 13
+  },
+  "generated_caches": {
+    "pyc_files_count": 11682,
+    "example_paths": [
+      ".venv/Lib/site-packages/IPython/__pycache__/__init__.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/__pycache__/__main__.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/__pycache__/display.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/__pycache__/paths.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/__init__.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/alias.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/application.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/async_helpers.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/autocall.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/builtin_trap.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/compilerop.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/completer.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/completerlib.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/crashhandler.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/debugger.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/debugger_backport.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/display.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/display_functions.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/display_trap.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/displayhook.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/displaypub.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/doctb.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/error.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/events.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/extensions.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/formatters.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/getipython.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/guarded_eval.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/history.cpython-311.pyc",
+      ".venv/Lib/site-packages/IPython/core/__pycache__/historyapp.cpython-311.pyc"
+    ],
+    "pytest_cache_exists": true,
+    "python_cache_dirs": 1305
+  },
+  "notebook_checkpoints": [],
+  "license_status": "no repository-level LICENSE file found",
+  "repository_hygiene_status": "ready_with_size_and_generated-file_caveats"
+}

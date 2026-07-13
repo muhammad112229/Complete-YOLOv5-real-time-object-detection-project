@@ -1,0 +1,32 @@
+{
+  "generated_at_utc": "2026-07-05T08:03:37.668464+00:00",
+  "dataset_yaml": {
+    "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\coco_project.yaml",
+    "dataset_root": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo",
+    "name_count": 80,
+    "nc": 80,
+    "paths_ok": {
+      "train": true,
+      "val": true,
+      "test": true
+    },
+    "valid": true
+  },
+  "smoke_image_list": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\artifacts\\coco_train_smoke_images.txt",
+  "batch_image_tensor_shape": [
+    2,
+    3,
+    640,
+    640
+  ],
+  "batch_label_tensor_shape": [
+    7,
+    6
+  ],
+  "batch_paths": [
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\train\\train2017_000000248958.jpg",
+    "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\images\\train\\train2017_000000359337.jpg"
+  ],
+  "dataset_length": 4,
+  "status": "passed"
+}

@@ -1,0 +1,16 @@
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\smoke\coco_yolov5\images\val\train2017_000000106123.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\smoke\coco_yolov5\images\val\train2017_000000115619.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\smoke\coco_yolov5\images\val\train2017_000000174019.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\smoke\coco_yolov5\images\val\train2017_000000505552.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\smoke\coco_yolov5\images\val\train2017_000000528851.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\smoke\coco_yolov5\images\val\train2017_000000466664.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\smoke\coco_yolov5\images\val\train2017_000000471113.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\smoke\coco_yolov5\images\val\train2017_000000404236.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\smoke\coco_yolov5\images\val\train2017_000000301991.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\smoke\coco_yolov5\images\val\train2017_000000185168.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\smoke\coco_yolov5\images\val\train2017_000000223146.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\smoke\coco_yolov5\images\val\train2017_000000102056.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\smoke\coco_yolov5\images\val\train2017_000000341118.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\smoke\coco_yolov5\images\val\train2017_000000012681.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\smoke\coco_yolov5\images\val\train2017_000000244122.jpg
+G:\intership projects\Real-Time Object Detection using YOLOv5\code\data\smoke\coco_yolov5\images\val\train2017_000000047125.jpg

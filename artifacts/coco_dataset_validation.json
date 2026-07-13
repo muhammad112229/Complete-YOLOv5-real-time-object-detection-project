@@ -1,0 +1,116 @@
+{
+  "generated_at_utc": "2026-07-05T08:01:54.259881+00:00",
+  "rules": [
+    {
+      "name": "no_image_source_key_leakage",
+      "status": "PASS",
+      "details": {
+        "overlaps": 0
+      }
+    },
+    {
+      "name": "no_project_image_path_leakage",
+      "status": "PASS",
+      "details": {
+        "overlaps": 0
+      }
+    },
+    {
+      "name": "no_label_path_leakage",
+      "status": "PASS",
+      "details": {
+        "overlaps": 0
+      }
+    },
+    {
+      "name": "manifest_paths_exist",
+      "status": "PASS",
+      "details": {
+        "errors": []
+      }
+    },
+    {
+      "name": "label_format_and_ranges",
+      "status": "PASS",
+      "details": {
+        "error_count": 0,
+        "examples": []
+      }
+    },
+    {
+      "name": "dataset_yaml_paths_resolve",
+      "status": "PASS",
+      "details": {
+        "path": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo\\coco_project.yaml",
+        "dataset_root": "G:\\intership projects\\Real-Time Object Detection using YOLOv5\\code\\data\\processed\\coco_yolo",
+        "name_count": 80,
+        "nc": 80,
+        "paths_ok": {
+          "train": true,
+          "val": true,
+          "test": true
+        },
+        "valid": true
+      }
+    },
+    {
+      "name": "all_usable_images_open",
+      "status": "PASS",
+      "details": {
+        "method": "raw extraction validation opened every source image; processed images are hardlinks",
+        "corrupt_images": {
+          "train2017": 0,
+          "val2017": 0
+        },
+        "missing_images": {
+          "train2017": 0,
+          "val2017": 0
+        }
+      }
+    },
+    {
+      "name": "coco_to_yolo_reversible",
+      "status": "PASS",
+      "details": {
+        "failures": 0
+      }
+    },
+    {
+      "name": "split_ratios_close_to_80_10_10",
+      "status": "PASS",
+      "details": {
+        "train": 0.7999951333068369,
+        "val": 0.09999432219130971,
+        "test": 0.1000105445018534
+      }
+    },
+    {
+      "name": "source_traceability_present",
+      "status": "PASS",
+      "details": {
+        "manifest_rows": 123287,
+        "split_total": 123287
+      }
+    },
+    {
+      "name": "no_placeholder_paths",
+      "status": "PASS",
+      "details": {
+        "files": []
+      }
+    },
+    {
+      "name": "all_labels_belong_to_single_split",
+      "status": "PASS",
+      "details": {}
+    }
+  ],
+  "excluded_records": {
+    "non_accepted_annotations": 10500,
+    "reasons": {
+      "iscrowd_excluded_for_yolov5_compatibility": 10498,
+      "invalid_bbox:bbox has zero or negative area after clipping": 2
+    }
+  },
+  "final_readiness": true
+}

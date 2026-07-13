@@ -1,0 +1,17 @@
+model: yolov5s
+enabled_for_first_full_experiment: true
+weights: yolov5s.pt
+data: /content/datasets/coco2017/coco_yolo_exact_split/coco_project.yaml
+imgsz: 640
+epochs: 100
+batch_size: 16
+optimizer: SGD
+device: 0
+workers: 4
+seed: 42
+patience: 25
+project: /content/drive/MyDrive/YOLOv5_COCO_Project/runs/yolov5s
+name: coco2017_yolov5s_sgd
+resume: false
+save_period: 10
+start_training_default: false
