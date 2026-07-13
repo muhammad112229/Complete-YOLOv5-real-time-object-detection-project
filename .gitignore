@@ -7,6 +7,9 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.cache/
+*.cache
+*.tmp
 .coverage
 htmlcov/
 .venv/
@@ -32,6 +35,8 @@ kaggle.json
 
 # Large local COCO data
 data/raw/
+data/downloads/
+data/archives/
 data/interim/
 data/processed/coco_yolo/images/
 data/processed/coco_yolo/labels/
@@ -68,6 +73,7 @@ models/optimized/
 *.zip
 *.tar
 *.tar.gz
+transfer/*.zip
 artifacts/trained_coco20k_yolov5s/weights/*.pt
 artifacts/trained_coco20k_yolov5s/events.out.tfevents.*
 results/yolov5s/
@@ -77,7 +83,11 @@ wandb/
 # Local uploads and transient runtime logs
 uploads/
 outputs/flask/flask_server_*.log
+outputs/flask/metadata/*.tmp
+outputs/flask/videos/*_temporary.*
+outputs/flask/images/*_temporary.*
 *.log
+.ipynb_checkpoints/
 
 # Keep final evidence, metrics, reports, configs, source, and tests tracked
 !artifacts/*.json
@@ -86,6 +96,8 @@ outputs/flask/flask_server_*.log
 !results/**/*.csv
 !results/**/*.md
 !results/**/*.png
+!results/**/*.jpg
+!results/**/*.jpeg
 !reports/**
 !configs/**
 !src/**
@@ -93,3 +105,15 @@ outputs/flask/flask_server_*.log
 !templates/**
 !static/**
 !tests/**
+
+# Large generated evaluation outputs
+results/evaluation/test_subset_2500/labels/
+results/evaluation/test_subset_2500/coco_eval/coco_predictions.json
+results/evaluation/test_subset_2500/predictions.json
+results/evaluation/test_subset_2500/yolov5s_coco20k_best_predictions.json
+
+# Final cache guards after broad source/test keep rules
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
