@@ -18,7 +18,15 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from src.common import ensure_dir, project_root, require_file, require_python_package, setup_logging, yolov5_root
+from src.common import (
+    ensure_dir,
+    ensure_project_pythonpath,
+    project_root,
+    require_file,
+    require_python_package,
+    setup_logging,
+    yolov5_root,
+)
 from src.inference_engine import resolve_device
 from src.recreate_test_subset import label_path_for_image
 
@@ -979,6 +987,7 @@ def run_evaluation(config: EvaluationConfig, require_exact_2500: bool = False) -
     env = os.environ.copy()
     env.setdefault("PYTHONIOENCODING", "utf-8")
     env.setdefault("YOLOv5_AUTOINSTALL", "False")
+    ensure_project_pythonpath(env)
     completed = subprocess.run(
         command,
         cwd=project_root(),

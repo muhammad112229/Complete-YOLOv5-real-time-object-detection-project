@@ -1,0 +1,105 @@
+{
+  "generated_at_utc": "2026-07-13T20:32:39.496415+00:00",
+  "repository_type": {
+    "external_yolov5": "nested Git repository recorded in the parent repository as a gitlink (mode 160000)",
+    "has_gitmodules": false,
+    "gitlink_entry": "160000 915bbf294bb74c859f0b41f1c23bc395014ea679 0\texternal/yolov5",
+    "remote": "origin\thttps://github.com/ultralytics/yolov5.git (fetch)\norigin\thttps://github.com/ultralytics/yolov5.git (push)"
+  },
+  "current_commit": "915bbf294bb74c859f0b41f1c23bc395014ea679",
+  "current_describe": "v7.0",
+  "expected_commit": "915bbf294bb74c859f0b41f1c23bc395014ea679",
+  "expected_tag": "v7.0",
+  "expected_commit_verified": true,
+  "files_inspected": [
+    "external/yolov5/utils/metrics.py",
+    "external/yolov5/utils/plots.py"
+  ],
+  "diff_summaries": {
+    "before_resolution": {
+      "external/yolov5/utils/metrics.py": {
+        "summary": "Replaced direct np.trapz call with np.trapezoid fallback logic for NumPy compatibility.",
+        "classification": "required project compatibility patch",
+        "reason": "Historical YOLOv5 smoke logs show AttributeError: module 'numpy' has no attribute 'trapz'."
+      },
+      "external/yolov5/utils/plots.py": {
+        "summary": "Replaced direct font.getsize call in Annotator.box_label with getbbox-based sizing fallback for Pillow >= 10.",
+        "classification": "required project compatibility patch",
+        "reason": "Historical YOLOv5 smoke logs show failures at utils/plots.py box_label because font.getsize is unavailable."
+      }
+    },
+    "after_resolution_diff_empty": true,
+    "after_resolution_diff_stdout": ""
+  },
+  "action_taken_per_file": {
+    "external/yolov5/utils/metrics.py": {
+      "action": "restored file to upstream YOLOv5 v7.0 HEAD after preserving patch externally",
+      "restored_to_commit": "915bbf294bb74c859f0b41f1c23bc395014ea679",
+      "runtime_compatibility_preserved_by": "src/yolov5_runtime_compat.py and sitecustomize.py"
+    },
+    "external/yolov5/utils/plots.py": {
+      "action": "restored file to upstream YOLOv5 v7.0 HEAD after preserving patch externally",
+      "restored_to_commit": "915bbf294bb74c859f0b41f1c23bc395014ea679",
+      "runtime_compatibility_preserved_by": "src/yolov5_runtime_compat.py and sitecustomize.py"
+    }
+  },
+  "patches_preserved": [
+    {
+      "path": "patches/yolov5/yolov5_v7_numpy_pillow_compat.patch",
+      "status": "preserved for reproducible source-level patching, not applied in clean final tree",
+      "documentation": "reports/YOLOV5_LOCAL_PATCHES.md"
+    }
+  ],
+  "project_owned_files_changed": [
+    "sitecustomize.py",
+    "src/yolov5_runtime_compat.py",
+    "src/common.py",
+    "src/evaluate_model.py",
+    "src/inference_engine.py",
+    "tests/test_imports.py",
+    "tests/test_yolov5_runtime_compat.py",
+    "patches/yolov5/yolov5_v7_numpy_pillow_compat.patch",
+    "reports/YOLOV5_LOCAL_PATCHES.md",
+    "artifacts/external_yolov5_resolution.json"
+  ],
+  "verification": {
+    "image_inference_still_works": "covered by tests/test_inference_smoke.py in full pytest run",
+    "evaluation_pipeline_imports": "covered by tests/test_evaluation_pipeline.py and tests/test_imports.py",
+    "flask_application_imports": "covered by tests/test_flask_app.py",
+    "video_compatibility_tests_pass": "covered by tests/test_video_compatibility.py",
+    "production_model_path_unchanged": "models/yolov5s_coco20k_best.pt",
+    "production_checkpoint_sha256": "8e75b741661acbd882cad802ab2d177cb636a0327af74dca944fbd3db5e10ee6",
+    "production_checkpoint_exists": true
+  },
+  "tests_result": {
+    "command": ".\\.venv\\Scripts\\python.exe -m pytest -q",
+    "status": "passed",
+    "summary": "50 passed, 0 failed",
+    "log_path": "artifacts/external_yolov5_resolution_pytest.log",
+    "known_warnings": [
+      "YOLOv5 pkg_resources deprecation warning.",
+      "thop distutils LooseVersion deprecation warnings.",
+      "YOLOv5 torch.cuda.amp.autocast future warning."
+    ]
+  },
+  "final_git_status_at_report_time": [
+    "## main...origin/main",
+    " M src/common.py",
+    " M src/evaluate_model.py",
+    " M src/inference_engine.py",
+    " M tests/test_imports.py",
+    "?? patches/",
+    "?? reports/YOLOV5_LOCAL_PATCHES.md",
+    "?? sitecustomize.py",
+    "?? src/yolov5_runtime_compat.py",
+    "?? tests/test_yolov5_runtime_compat.py"
+  ],
+  "external_yolov5_status_at_report_time": [
+    "## HEAD (no branch)"
+  ],
+  "external_yolov5_clean": true,
+  "parent_cleanliness_status": "pending_commit_for_project_owned_resolution_files",
+  "final_cleanliness_status": "external_yolov5_clean_parent_pending_commit",
+  "commit_message_to_use": "Resolve external YOLOv5 local modifications",
+  "history_policy": "no force-push, no history rewrite, no checkpoint/dataset/metric changes"
+}

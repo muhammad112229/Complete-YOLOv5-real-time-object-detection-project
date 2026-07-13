@@ -1,0 +1,31 @@
+diff --git a/utils/metrics.py b/utils/metrics.py
+index 65ea463..c2ee00c 100644
+--- a/utils/metrics.py
++++ b/utils/metrics.py
+@@ -115,7 +115,8 @@ def compute_ap(recall, precision):
+     method = 'interp'  # methods: 'continuous', 'interp'
+     if method == 'interp':
+         x = np.linspace(0, 1, 101)  # 101-point interp (COCO)
+-        ap = np.trapz(np.interp(x, mrec, mpre), x)  # integrate
++        integrate = np.trapezoid if hasattr(np, 'trapezoid') else np.trapz  # NumPy 2.x compatibility
++        ap = integrate(np.interp(x, mrec, mpre), x)  # integrate
+     else:  # 'continuous'
+         i = np.where(mrec[1:] != mrec[:-1])[0]  # points where x axis (recall) changes
+         ap = np.sum((mrec[i + 1] - mrec[i]) * mpre[i + 1])  # area under curve
+diff --git a/utils/plots.py b/utils/plots.py
+index 36df271..28c5ec4 100644
+--- a/utils/plots.py
++++ b/utils/plots.py
+@@ -88,7 +88,11 @@ class Annotator:
+         if self.pil or not is_ascii(label):
+             self.draw.rectangle(box, width=self.lw, outline=color)  # box
+             if label:
+-                w, h = self.font.getsize(label)  # text width, height
++                if hasattr(self.font, 'getbbox'):  # Pillow >=10
++                    left, top, right, bottom = self.font.getbbox(label)
++                    w, h = right - left, bottom - top
++                else:
++                    w, h = self.font.getsize(label)  # text width, height
+                 outside = box[1] - h >= 0  # label fits outside box
+                 self.draw.rectangle(
+                     (box[0], box[1] - h if outside else box[1], box[0] + w + 1,

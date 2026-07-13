@@ -64,6 +64,17 @@ def load_yaml(path: Path) -> dict[str, Any]:
     return data
 
 
+def ensure_project_pythonpath(env: dict[str, str], root: Path | None = None) -> dict[str, str]:
+    """Ensure project startup hooks are visible to Python subprocesses."""
+    project = str((root or project_root()).resolve())
+    existing = env.get("PYTHONPATH")
+    parts = [part for part in (existing or "").split(os.pathsep) if part]
+    if project not in parts:
+        parts.insert(0, project)
+    env["PYTHONPATH"] = os.pathsep.join(parts)
+    return env
+
+
 def run_command(
     command: list[str],
     cwd: Path | None = None,
@@ -76,6 +87,7 @@ def run_command(
         return 0
     env = os.environ.copy()
     env.setdefault("PYTHONIOENCODING", "utf-8")
+    ensure_project_pythonpath(env)
     if log_path:
         ensure_dir(log_path.parent)
         with log_path.open("w", encoding="utf-8", errors="replace") as log_file:

@@ -31,6 +31,7 @@ MODULES = [
     "src.result_store",
     "src.video_compatibility",
     "src.webcam_stream",
+    "src.yolov5_runtime_compat",
     "src.benchmark_inference",
     "src.prune_model",
     "src.quantize_model",

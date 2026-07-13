@@ -15,6 +15,7 @@ from pathlib import Path
 from typing import Any, Iterable
 
 from src.common import project_root, require_file, require_python_package, yolov5_root
+from src.yolov5_runtime_compat import apply_yolov5_runtime_compatibility
 
 
 Detection = dict[str, float | int | str]
@@ -272,6 +273,7 @@ def load_yolov5_model(
         raise RuntimeError(f"Expected YOLOv5 v7.0, found tag {yolo_info['tag']} at {yolo_info['path']}")
     torch = require_python_package("torch")
     os.environ.setdefault("YOLOv5_AUTOINSTALL", "False")
+    apply_yolov5_runtime_compatibility()
     patch_yolov5_git_describe(project_root())
     resolved_device = resolve_device(device)
     cache_key = (str(weights), resolved_device, float(conf_thres), float(iou_thres))
